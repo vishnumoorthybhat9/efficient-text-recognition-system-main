@@ -25,10 +25,7 @@ frontend/dist/
 frontend/.vite/
 
 # --- Generated data & artifacts -------------------------------------------
-data/raw/
-data/processed/
 data/uploads/
-data/demo/
 data/user_images/
 artifacts/checkpoints/
 artifacts/logs/
@@ -53,8 +50,8 @@ artifacts/*.db-shm
 *.tar.gz
 *.7z
 
-# --- EFFICIENT dataset (~1.4 GB) -------------------------------------------
-EFFICIENT/data/
+# --- EFFICIENT dataset: the unzipped data/ folder IS committed; only the ----
+# --- 1.37 GB zip is left out (GitHub rejects files over 100 MB) ------------
 EFFICIENT/data.zip
 
 # --- Editors / OS ----------------------------------------------------------

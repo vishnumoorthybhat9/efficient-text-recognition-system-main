@@ -1,5 +1,5 @@
-# Dataset images and CSVs (~1.4 GB) and the zip they came in
-data/
+# The dataset in data/ IS committed.
+# The 1.37 GB zip is left out: GitHub rejects files over 100 MB.
 data.zip
 *.zip
 
