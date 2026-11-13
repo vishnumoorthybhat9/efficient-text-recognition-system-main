@@ -1,7 +1,15 @@
-# The dataset in data/ IS committed.
-# The 1.37 GB zip is left out: GitHub rejects files over 100 MB.
+# The dataset images are not committed. They are all in data.zip, which is
+# attached to the repo's GitHub Release (over the 100 MB file limit).
+# The CSV label files in data/ ARE committed.
 data.zip
 *.zip
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tif
+data/**/*.tiff
+data/**/*.webp
 
 # Python / model output
 __pycache__/

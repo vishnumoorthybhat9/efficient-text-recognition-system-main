@@ -50,9 +50,24 @@ artifacts/*.db-shm
 *.tar.gz
 *.7z
 
-# --- EFFICIENT dataset: the unzipped data/ folder IS committed; only the ----
-# --- 1.37 GB zip is left out (GitHub rejects files over 100 MB) ------------
+# --- Dataset images ---------------------------------------------------------
+# All images are inside EFFICIENT/data.zip, which is attached to a GitHub
+# Release (it is over the 100 MB file limit). Labels/CSVs are still committed.
 EFFICIENT/data.zip
+EFFICIENT/data/**/*.jpg
+EFFICIENT/data/**/*.jpeg
+EFFICIENT/data/**/*.png
+EFFICIENT/data/**/*.bmp
+EFFICIENT/data/**/*.tif
+EFFICIENT/data/**/*.tiff
+EFFICIENT/data/**/*.webp
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tif
+data/**/*.tiff
+data/**/*.webp
 
 # --- Editors / OS ----------------------------------------------------------
 .vscode/
