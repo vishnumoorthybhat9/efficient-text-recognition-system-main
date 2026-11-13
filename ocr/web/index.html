@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Efficient Text Recognition</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c2330; --muted:#667085; --line:#dfe3ea; --accent:#2f6fed; --good:#15803d; --warn:#b45309; --bad:#b91c1c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151b; --card:#1b2029; --ink:#e7eaf0; --muted:#98a2b3; --line:#2c3440; --accent:#6b9bff; --good:#4ade80; --warn:#fbbf24; --bad:#f87171; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  main { max-width:1080px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 20px; font-size:13px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  @media (max-width: 800px) { .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; min-width:0; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:0 0 10px; }
+  .tabs { display:flex; gap:6px; margin-bottom:12px; }
+  button { font:inherit; border:1px solid var(--line); background:var(--card); color:var(--ink); padding:6px 12px; border-radius:7px; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  button.on, button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  #drop { border:2px dashed var(--line); border-radius:10px; padding:28px 12px; text-align:center; color:var(--muted); cursor:pointer; }
+  #drop.over { border-color:var(--accent); color:var(--accent); }
+  #pad { width:100%; height:180px; background:#fff; border:1px solid var(--line); border-radius:8px; touch-action:none; cursor:crosshair; display:block; }
+  .row { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; align-items:center; }
+  .samples { display:flex; gap:8px; overflow-x:auto; padding-bottom:4px; }
+  .samples img { height:44px; max-width:220px; object-fit:cover; object-position:left; border:1px solid var(--line); border-radius:6px; cursor:pointer; background:#fff; }
+  .samples img:hover { border-color:var(--accent); }
+  #stage { position:relative; margin-top:12px; display:none; }
+  #stage img { width:100%; display:block; border-radius:8px; border:1px solid var(--line); background:#fff; }
+  #stage .box { position:absolute; border:1.5px solid var(--accent); border-radius:3px; background:rgba(47,111,237,.08); }
+  #text { width:100%; min-height:170px; font:15px/1.6 ui-monospace, Consolas, monospace; background:transparent; color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:10px; resize:vertical; }
+  table { width:100%; border-collapse:collapse; font-size:13px; margin-top:10px; }
+  td { padding:4px 6px; border-top:1px solid var(--line); vertical-align:top; overflow-wrap:anywhere; }
+  td.c { white-space:nowrap; text-align:right; font-variant-numeric:tabular-nums; }
+  .good { color:var(--good); } .warn { color:var(--warn); } .bad { color:var(--bad); }
+  #status { color:var(--muted); font-size:13px; }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Efficient Text Recognition</h1>
+  <p class="sub" id="info">Loading model…</p>
+  <div class="grid">
+    <section class="card">
+      <h2>Image</h2>
+      <div class="tabs">
+        <button id="tabUpload" class="on">Upload</button>
+        <button id="tabDraw">Write by hand</button>
+      </div>
+      <div id="paneUpload">
+        <div id="drop">Drop an image here, click to choose, or paste (Ctrl+V)</div>
+        <input id="file" type="file" accept="image/*" class="hidden">
+        <h2 style="margin-top:14px">Or try a sample</h2>
+        <div class="samples" id="samples"></div>
+      </div>
+      <div id="paneDraw" class="hidden">
+        <canvas id="pad" width="1000" height="360"></canvas>
+        <div class="row">
+          <button id="read" class="primary">Read it</button>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+      <div id="stage"><img id="preview" alt="Image being recognised"></div>
+    </section>
+    <section class="card">
+      <h2>Recognised text</h2>
+      <textarea id="text" readonly placeholder="Text will appear here."></textarea>
+      <div class="row">
+        <button id="copy">Copy</button>
+        <span id="status"></span>
+      </div>
+      <table id="lines"></table>
+    </section>
+  </div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const pct = v => (v * 100).toFixed(1) + "%";
+
+fetch("/api/info").then(r => r.json()).then(info => {
+  const m = info.metrics || {};
+  $("info").textContent = `CRNN + CTC trained from scratch · ${(info.params / 1e6).toFixed(1)} M parameters · ` +
+    `validation character error rate: handwritten ${pct(m.handwritten.cer)}, printed ${pct(m.printed.cer)} · running on ${info.device}`;
+  for (const name of info.samples) {
+    const img = new Image();
+    img.src = "/samples/" + name; img.alt = name; img.title = name;
+    img.onclick = () => fetch(img.src).then(r => r.blob()).then(send);
+    $("samples").appendChild(img);
+  }
+}).catch(() => { $("info").textContent = "Could not reach the app."; });
+
+async function send(blob) {
+  $("status").textContent = "Reading…";
+  $("preview").src = URL.createObjectURL(blob);
+  $("stage").style.display = "block";
+  document.querySelectorAll("#stage .box").forEach(b => b.remove());
+  let data;
+  try {
+    const res = await fetch("/api/recognize", { method: "POST", body: blob });
+    data = await res.json();
+    if (!res.ok) throw new Error(data.error);
+  } catch (e) {
+    $("status").textContent = e.message || "Something went wrong.";
+    return;
+  }
+  $("text").value = data.text;
+  $("status").textContent = data.lines.length
+    ? `${data.lines.length} line${data.lines.length > 1 ? "s" : ""} in ${data.seconds}s`
+    : "No text found in that image.";
+  const table = $("lines");
+  table.replaceChildren();
+  for (const line of data.lines) {
+    const [l, t, r, b] = line.box;
+    const box = document.createElement("div");
+    box.className = "box";
+    box.style.cssText = `left:${l / data.width * 100}%;top:${t / data.height * 100}%;` +
+      `width:${(r - l) / data.width * 100}%;height:${(b - t) / data.height * 100}%`;
+    $("stage").appendChild(box);
+    const row = table.insertRow();
+    row.insertCell().textContent = line.text;
+    const c = row.insertCell();
+    c.textContent = pct(line.confidence);
+    c.className = "c " + (line.confidence > 0.9 ? "good" : line.confidence > 0.7 ? "warn" : "bad");
+  }
+}
+
+// upload / paste / drop
+const drop = $("drop"), file = $("file");
+drop.onclick = () => file.click();
+file.onchange = () => file.files[0] && send(file.files[0]);
+drop.ondragover = e => { e.preventDefault(); drop.classList.add("over"); };
+drop.ondragleave = () => drop.classList.remove("over");
+drop.ondrop = e => { e.preventDefault(); drop.classList.remove("over"); if (e.dataTransfer.files[0]) send(e.dataTransfer.files[0]); };
+document.onpaste = e => { for (const it of e.clipboardData.items) if (it.type.startsWith("image/")) return send(it.getAsFile()); };
+
+// tabs
+function tab(draw) {
+  $("paneDraw").classList.toggle("hidden", !draw); $("paneUpload").classList.toggle("hidden", draw);
+  $("tabDraw").classList.toggle("on", draw); $("tabUpload").classList.toggle("on", !draw);
+}
+$("tabUpload").onclick = () => tab(false);
+$("tabDraw").onclick = () => tab(true);
+
+// handwriting pad
+const pad = $("pad"), ctx = pad.getContext("2d");
+function wipe() { ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, pad.width, pad.height); }
+wipe();
+ctx.lineWidth = 5; ctx.lineCap = ctx.lineJoin = "round"; ctx.strokeStyle = "#111";
+let drawing = false;
+const pos = e => { const r = pad.getBoundingClientRect(); return [(e.clientX - r.left) * pad.width / r.width, (e.clientY - r.top) * pad.height / r.height]; };
+pad.onpointerdown = e => { drawing = true; pad.setPointerCapture(e.pointerId); ctx.beginPath(); ctx.moveTo(...pos(e)); };
+pad.onpointermove = e => { if (drawing) { ctx.lineTo(...pos(e)); ctx.stroke(); } };
+pad.onpointerup = pad.onpointercancel = () => { drawing = false; };
+$("clear").onclick = wipe;
+$("read").onclick = () => pad.toBlob(send, "image/png");
+
+$("copy").onclick = () => navigator.clipboard.writeText($("text").value).then(() => { $("status").textContent = "Copied."; });
+</script>
+</body>
+</html>
