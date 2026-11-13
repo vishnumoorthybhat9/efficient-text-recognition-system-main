@@ -29,10 +29,13 @@ Other ways to run it:
 | `python run.py --epochs 10` | shorter (or longer) training |
 | `python run.py --image photo.png` | print the text of one image and exit |
 | `python run.py --port 9000 --no-browser` | different port / do not open the browser |
+| `python run.py --resume` | continue a training run that was interrupted |
 
-Training uses an NVIDIA GPU automatically when PyTorch can see one (about
-15-20 minutes); on CPU only it takes a few hours, which is why a trained model
-is included.
+Training takes about 3 hours on a CPU (30 epochs, about 6 minutes each), which
+is why a trained model is included. An NVIDIA GPU is used automatically when
+PyTorch can see one and should be much faster (not measured). Progress is
+saved after every epoch, so an interrupted run can be continued with
+`--resume`.
 
 ## Project layout
 
@@ -41,7 +44,7 @@ run.py                 the only file you run
 requirements.txt       torch, numpy, Pillow
 data/dataset.zip       the dataset (28 MB)
 dataset/               extracted dataset - created by run.py, git-ignored
-models/ocr_crnn.pt     trained model (4.5 MB) - overwritten when you retrain
+models/ocr_crnn.pt     trained model (4.4 MB) - overwritten when you retrain
 samples/               example images shown in the web app
 ocr/
   config.py            paths, character set, training defaults
@@ -92,7 +95,21 @@ each line.
 
 ## Results
 
-RESULTS_PLACEHOLDER
+The included model was trained from random weights for 30 epochs (7,500
+batches of 32 lines) on a CPU; the best epoch (28) was kept. Measured on the
+held-out data:
+
+| Validation set | Lines | Character error rate | Lines read with no mistake |
+|---|---:|---:|---:|
+| Handwritten (IAM validation lines) | 960 | 8.9 % | 15.9 % |
+| Printed (unseen words, random fonts) | 1,920 | 2.1 % | 80.1 % |
+
+In practice: clean printed text comes out nearly perfect (the occasional
+comma/full-stop mix-up). Handwriting is readable but not perfect - expect
+roughly one wrong character in eleven, so most long handwritten lines contain
+a mistake or two, and untidy writing does noticeably worse. There is no
+language model or spell-checker on top; the output is exactly what the network
+reads.
 
 ## Limits
 
