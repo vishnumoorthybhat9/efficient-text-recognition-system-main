@@ -4,8 +4,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATASET_ZIP = ROOT / "data" / "dataset.zip"
 DATASET_DIR = ROOT / "dataset"            # extracted here, git-ignored
-MODEL_PATH = ROOT / "models" / "ocr_crnn.pt"
-STATE_PATH = ROOT / "models" / "train_state.pt"   # resume file, git-ignored
+# The CNN is shared; the sequence model after it is one of these.
+ARCHS = ("lstm", "transformer", "mamba")
+ARCH_NAMES = {"lstm": "CNN + BiLSTM", "transformer": "CNN + Transformer", "mamba": "CNN + Mamba"}
+MODEL_PATHS = {"lstm": ROOT / "models" / "ocr_crnn.pt",          # the original trained model
+               "transformer": ROOT / "models" / "ocr_transformer.pt",
+               "mamba": ROOT / "models" / "ocr_mamba.pt"}
+STATE_PATHS = {a: ROOT / "models" / f"train_state_{a}.pt" for a in ARCHS}   # resume files, git-ignored
 SAMPLES_DIR = ROOT / "samples"
 WEB_DIR = ROOT / "ocr" / "web"
 

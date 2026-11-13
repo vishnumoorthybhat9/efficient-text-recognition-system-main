@@ -2,7 +2,7 @@
 /dataset/
 
 # interrupted-training resume file
-/models/train_state.pt
+/models/train_state*.pt
 
 # python
 __pycache__/

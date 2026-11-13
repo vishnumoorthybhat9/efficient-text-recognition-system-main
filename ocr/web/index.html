@@ -84,7 +84,7 @@ const pct = v => (v * 100).toFixed(1) + "%";
 
 fetch("/api/info").then(r => r.json()).then(info => {
   const m = info.metrics || {};
-  $("info").textContent = `CRNN + CTC trained from scratch · ${(info.params / 1e6).toFixed(1)} M parameters · ` +
+  $("info").textContent = `CNN + ${{lstm: "BiLSTM", transformer: "Transformer", mamba: "Mamba"}[info.arch] || info.arch} + CTC trained from scratch · ${(info.params / 1e6).toFixed(1)} M parameters · ` +
     `validation character error rate: handwritten ${pct(m.handwritten.cer)}, printed ${pct(m.printed.cer)} · running on ${info.device}`;
   for (const name of info.samples) {
     const img = new Image();

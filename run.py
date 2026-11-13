@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Efficient Text Recognition - the one file you run.
 
-    python run.py                 extract dataset (first time), ask whether to
-                                  train again, then open the web app
-    python run.py --train         retrain from scratch without asking
-    python run.py --no-train      never retrain (use the saved model)
-    python run.py --image a.png   just print the text found in an image
+    python run.py                 start screen: pick a model, train, compare
+    python run.py --arch mamba    use that model (lstm, transformer, mamba) in the web app
+    python run.py --train         train the chosen --arch from scratch, then open the app
+    python run.py --resume        continue the training run that was interrupted
+    python run.py --compare       score every trained model on the same held-out lines
+    python run.py --image a.png   print the text found in an image and exit
     python run.py --epochs 10     shorter / longer training
-    python run.py --resume        continue a training run that was interrupted
 """
 from __future__ import annotations
 
@@ -37,27 +37,86 @@ def ensure_packages() -> None:
     importlib.invalidate_caches()
 
 
-def ask_yes_no(question: str) -> bool:
+def ask(question: str, default: str = "") -> str:
     try:
-        return input(f"{question} [y/N]: ").strip().lower() in ("y", "yes")
+        answer = input(f"{question} [{default}]: " if default else f"{question}: ").strip().lower()
     except EOFError:                                   # not an interactive terminal
-        print("n")
-        return False
+        print(default)
+        return default
+    return answer or default
+
+
+def ask_yes_no(question: str, default: bool = False) -> bool:
+    return ask(question, "y" if default else "n") in ("y", "yes")
 
 
 def describe(info: dict) -> str:
     m = info.get("metrics", {})
-    return (f"epoch {info.get('epoch', '?')}, validation character error rate: "
-            f"handwritten {m.get('handwritten', {}).get('cer', 0):.1%}, "
-            f"printed {m.get('printed', {}).get('cer', 0):.1%}")
+    return (f"errors per character: handwriting {m.get('handwritten', {}).get('cer', 0):.1%}, "
+            f"printed {m.get('printed', {}).get('cer', 0):.1%}  (best epoch {info.get('epoch', '?')})")
+
+
+TRAIN_TIME = "about 20-40 min on an NVIDIA GPU, several hours on a CPU"
+
+
+def start_screen(config, load_model, device: str):
+    """Interactive menu -> (arch, train_first) or None to quit."""
+    while True:
+        trained = {a: load_model(config.MODEL_PATHS[a])[1] for a in config.ARCHS
+                   if config.MODEL_PATHS[a].exists()}
+        print("\nEvery model = the same CNN (looks at the pixels) + a sequence model "
+              "(reads the line in order) + CTC (turns it into letters).\n")
+        for i, arch in enumerate(config.ARCHS, 1):
+            state = describe(trained[arch]) if arch in trained else "not trained yet"
+            if config.STATE_PATHS[arch].exists():
+                state += f"\n{'':24}training unfinished - continue it with:  python run.py --resume --arch {arch}"
+            print(f"  {i}  {config.ARCH_NAMES[arch]:<19}{state}")
+        print("\n  1-3  open the web app with that model\n"
+              "  t    train a model from scratch\n"
+              "  c    compare all trained models side by side\n"
+              "  q    quit\n")
+        def errors(a):                                # lower = more accurate model
+            m = trained[a].get("metrics", {})
+            return sum(m.get(k, {}).get("cer", 1.0) for k in ("handwritten", "printed"))
+        default = str(config.ARCHS.index(min(trained, key=errors)) + 1) if trained else "t"
+        choice = ask("Your choice", default)
+        if choice == "q":
+            return None
+        if choice == "c":
+            from ocr.train import compare
+            print("\nScoring every trained model on the same held-out lines ...")
+            compare(device)
+            continue
+        if choice == "t":
+            choice = ask("Train which model? 1, 2 or 3")
+            if choice not in ("1", "2", "3"):
+                continue
+            arch = config.ARCHS[int(choice) - 1]
+            if arch in trained and not ask_yes_no(
+                    f"This replaces the trained {config.ARCH_NAMES[arch]} model. Continue?"):
+                continue
+            return arch, True
+        if choice in ("1", "2", "3"):
+            arch = config.ARCHS[int(choice) - 1]
+            if arch in trained:
+                return arch, False
+            if ask_yes_no(f"{config.ARCH_NAMES[arch]} is not trained yet ({TRAIN_TIME}). "
+                          "Train it now?", default=True):
+                return arch, True
+            continue
+        print("Please type 1, 2, 3, t, c or q.")
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Efficient text recognition (CRNN + CTC, trained from scratch)")
+    ap = argparse.ArgumentParser(description="Efficient text recognition: CNN + (BiLSTM | "
+                                 "Transformer | Mamba) + CTC, trained from scratch")
     group = ap.add_mutually_exclusive_group()
-    group.add_argument("--train", action="store_true", help="retrain from scratch without asking")
-    group.add_argument("--no-train", action="store_true", help="use the saved model without asking")
+    group.add_argument("--train", action="store_true", help="train --arch from scratch without asking")
+    group.add_argument("--no-train", action="store_true", help="never train; skip the start screen")
     group.add_argument("--resume", action="store_true", help="continue an interrupted training run")
+    group.add_argument("--compare", action="store_true", help="compare all trained models and exit")
+    ap.add_argument("--arch", choices=("lstm", "transformer", "mamba"),
+                    help="sequence model after the CNN (default: lstm)")
     ap.add_argument("--epochs", type=int, help="training epochs (default: see ocr/config.py)")
     ap.add_argument("--image", help="recognise this image in the terminal and exit")
     ap.add_argument("--port", type=int, default=8000)
@@ -74,25 +133,40 @@ def main() -> None:
     from ocr.model import load_model
 
     ensure_extracted()                                 # unzip data/dataset.zip once
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    if args.compare:
+        from ocr.train import compare
+        compare(device)
+        return
 
-    retrain = args.train or args.resume
-    if not config.MODEL_PATH.exists():
-        if args.no_train:
-            raise SystemExit(f"No trained model at {config.MODEL_PATH}; run without --no-train.")
-        print("No trained model found - training one now.")
+    arch, retrain = args.arch or "lstm", args.train or args.resume
+    if args.resume and not args.arch:                  # resume whichever run was interrupted
+        pending = [a for a in config.ARCHS if config.STATE_PATHS[a].exists()]
+        if not pending:
+            raise SystemExit("Nothing to resume: no interrupted training run was found.")
+        arch = pending[0]
+    flags_given = args.arch or args.train or args.resume or args.no_train or args.image
+    if not flags_given and sys.stdin.isatty():
+        print(f"Efficient Text Recognition  (running on {device})")
+        picked = start_screen(config, load_model, device)
+        if picked is None:
+            return
+        arch, retrain = picked
+
+    model_path = config.MODEL_PATHS[arch]
+    if not model_path.exists() and not retrain:
+        if args.no_train or args.image:
+            raise SystemExit(f"{config.ARCH_NAMES[arch]} is not trained yet; run:  "
+                             f"python run.py --train --arch {arch}")
+        print(f"{config.ARCH_NAMES[arch]} is not trained yet - training it now ({TRAIN_TIME}).")
         retrain = True
-    elif not (args.train or args.resume or args.no_train or args.image):
-        _, info = load_model(config.MODEL_PATH)
-        print(f"Trained model found ({describe(info)}).")
-        retrain = ask_yes_no("Train again from scratch on the dataset images?")
 
     if retrain:
         from ocr.train import train
-        train(epochs=args.epochs or config.EPOCHS, resume=args.resume)
+        train(epochs=args.epochs or config.EPOCHS, resume=args.resume, arch=arch)
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    model, info = load_model(config.MODEL_PATH, device)
-    print(f"Model ready on {device} ({describe(info)}).")
+    model, info = load_model(model_path, device)
+    print(f"{config.ARCH_NAMES[arch]} ready on {device} - {describe(info)}")
 
     if args.image:
         from ocr.predict import recognize

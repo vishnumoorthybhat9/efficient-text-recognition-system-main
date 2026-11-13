@@ -1,4 +1,4 @@
-"""Train the CRNN from scratch (random initial weights) with CTC loss."""
+"""Train a recognizer (CNN + lstm / transformer / mamba) from scratch (random initial weights) with CTC loss."""
 from __future__ import annotations
 
 import os
@@ -10,7 +10,7 @@ from torch import nn
 
 from . import config
 from .dataset import LineBatches, ensure_extracted
-from .model import CRNN, greedy_decode, save_model
+from .model import CRNN, greedy_decode, load_model, save_model
 
 
 def edit_distance(a: str, b: str) -> int:
@@ -43,8 +43,9 @@ def evaluate(model: nn.Module, loader, device: str) -> dict:
 
 def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
           batch_size: int = config.BATCH_SIZE, lr: float = config.LEARNING_RATE,
-          resume: bool = False) -> dict:
+          resume: bool = False, arch: str = "lstm") -> dict:
     """Train from random weights; resume=True continues an interrupted run."""
+    model_path, state_path = config.MODEL_PATHS[arch], config.STATE_PATHS[arch]
     ensure_extracted()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     cores = os.cpu_count() or 2
@@ -63,7 +64,7 @@ def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
     val_ds.batches = 3 * max(1, len(val_ds.hand) // batch_size)   # covers every val line once
 
     torch.manual_seed(0)
-    model = CRNN().to(device)                      # random weights: trained from scratch
+    model = CRNN(arch).to(device)                      # random weights: trained from scratch
     params = sum(p.numel() for p in model.parameters())
     opt = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
     sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=lr, total_steps=epochs * steps,
@@ -71,14 +72,14 @@ def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
     ctc = nn.CTCLoss(blank=0, zero_infinity=True)
     scaler = torch.amp.GradScaler(enabled=device == "cuda")
 
-    print(f"Training from scratch on {device}: {params / 1e6:.2f} M parameters, "
+    print(f"Training {config.ARCH_NAMES[arch]} from scratch on {device}: {params / 1e6:.2f} M parameters, "
           f"{len(train_ds.hand)} handwritten lines + "
           f"{sum(len(v) for v in train_ds.fonts.values())} printed words "
           f"({len(train_ds.font_ids)} fonts), {epochs} epochs x {steps} steps", flush=True)
 
     best, best_score, first, started = {}, float("inf"), 1, time.time()
-    if resume and config.STATE_PATH.exists():
-        state = torch.load(config.STATE_PATH, map_location=device, weights_only=True)
+    if resume and state_path.exists():
+        state = torch.load(state_path, map_location=device, weights_only=True)
         if state["total_steps"] == epochs * steps:
             model.load_state_dict(state["model"])
             opt.load_state_dict(state["opt"])
@@ -115,15 +116,51 @@ def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
         if score < best_score:
             best_score, flag = score, "  * saved"
             best = {"metrics": m, "epoch": epoch, "params": params}
-            save_model(model, config.MODEL_PATH, **best)
+            save_model(model, model_path, **best)
         torch.save({"model": model.state_dict(), "opt": opt.state_dict(),
                     "sched": sched.state_dict(), "epoch": epoch, "best": best,
-                    "best_score": best_score, "total_steps": epochs * steps}, config.STATE_PATH)
+                    "best_score": best_score, "total_steps": epochs * steps}, state_path)
         print(f"\r  epoch {epoch:>2}/{epochs}  loss {total / steps:6.3f}  "
               f"val CER handwritten {m['handwritten']['cer']:.3f} "
               f"printed {m['printed']['cer']:.3f}  "
               f"[{(time.time() - started) / 60:5.1f} min]{flag}      ", flush=True)
 
-    config.STATE_PATH.unlink(missing_ok=True)          # run complete: nothing to resume
-    print(f"Best model (epoch {best['epoch']}) saved to {config.MODEL_PATH}", flush=True)
+    state_path.unlink(missing_ok=True)          # run complete: nothing to resume
+    print(f"Best model (epoch {best['epoch']}) saved to {model_path}", flush=True)
     return best
+
+
+@torch.no_grad()
+def compare(device: str) -> list[dict]:
+    """Score every trained model on the same held-out lines; print and return a table."""
+    ensure_extracted()
+    ds = LineBatches("val", 0, config.BATCH_SIZE, 1)
+    ds.batches = 3 * max(1, len(ds.hand) // config.BATCH_SIZE)    # same lines as training's check
+    loader = torch.utils.data.DataLoader(ds, batch_size=None, shuffle=False)
+    sample = ds[1][0].to(device)                                   # one batch of long printed lines
+    print(f"{'model':<18}{'params':>8}{'hand CER':>10}{'hand exact':>12}"
+          f"{'print CER':>11}{'print exact':>13}{'ms/line':>9}")
+    rows = []
+    for arch in config.ARCHS:
+        if not config.MODEL_PATHS[arch].exists():
+            print(f"{config.ARCH_NAMES[arch]:<18}  not trained yet")
+            continue
+        model, _ = load_model(config.MODEL_PATHS[arch], device)
+        m = evaluate(model, loader, device)
+        model(sample)                                              # warm-up
+        if device == "cuda":
+            torch.cuda.synchronize()
+        t0 = time.perf_counter()
+        for _ in range(5):
+            model(sample)
+        if device == "cuda":
+            torch.cuda.synchronize()
+        ms = (time.perf_counter() - t0) / (5 * sample.size(0)) * 1000
+        params = sum(p.numel() for p in model.parameters()) / 1e6
+        h, p = m["handwritten"], m["printed"]
+        print(f"{config.ARCH_NAMES[arch]:<18}{params:>7.2f}M{h['cer']:>10.1%}{h['exact']:>12.1%}"
+              f"{p['cer']:>11.1%}{p['exact']:>13.1%}{ms:>9.2f}")
+        rows.append({"arch": arch, "name": config.ARCH_NAMES[arch], "params": params, "ms": ms,
+                     "hand_cer": h["cer"], "hand_exact": h["exact"],
+                     "print_cer": p["cer"], "print_exact": p["exact"]})
+    return rows
