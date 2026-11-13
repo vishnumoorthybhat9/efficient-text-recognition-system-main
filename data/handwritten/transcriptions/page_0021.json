@@ -1,0 +1,517 @@
+{
+  "source_image": "page_0021.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 36,
+  "elapsed_seconds": 217.56,
+  "text": "nous, PW2D.\n\" I'm I'm about 400m. via I'm\nbusiness schools 2000 (RIA. \" Southern United\nIPRA, I \" I GOOD I understand that\n4000\nIPLA.B.B): Q.28571\nwomen, i.1590for. 3.,\nIPIA, 15/013) c.a.883rd\nis stylification.\nIPIA, MACLO, 3) - a. 3a1/b.\n# being enough.\n0 1\nNow, for I.14(6, present worth), PW.2O. \"...\nNZ-1600 * 300 (FIRST, NIGHT PRODUCTRALIAN- 600 (ever than\n0-16000 1800 (0.87719. 7,000 (0.96977) 1,000) 0.6719.)\n0 7 455.03\nLADER OF (KENNIS ATV.T. \" MARKIN. reached\nnow 1/M, her satisfied # it\n0-1600,4,000 (P.1520,1.400.P.1590.2/4,000,P.7590,B.B.\n0 - - 1600 to.86957. 4,00010.756141thodolio-65752)\n0 7 1914-66\nnone-interfontating. TOP 1000\nFitzgerald FA\nnpw\nto\n# the best of the best ever ever. It was not\nja\no\ndut.\n15-5. 1946.\n\" You're got the best appearance with the first appearance of the first time\nb.\nold of # and # pulling\n\"014-019-455.083-000.000,000514-157\n(4.55.03-1914.661 \" \" \"\n(I -157th. International route of return LIRR)",
+  "lines": [
+    {
+      "line": 1,
+      "text": "nous, PW2D.",
+      "confidence": 0.682934,
+      "region": {
+        "index": 0,
+        "x": 311,
+        "y": 105,
+        "width": 472,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "\" I'm I'm about 400m. via I'm",
+      "confidence": 0.257268,
+      "region": {
+        "index": 1,
+        "x": 317,
+        "y": 199,
+        "width": 1119,
+        "height": 148,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "business schools 2000 (RIA. \" Southern United",
+      "confidence": 0.371071,
+      "region": {
+        "index": 2,
+        "x": 323,
+        "y": 318,
+        "width": 1641,
+        "height": 117,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "IPRA, I \" I GOOD I understand that",
+      "confidence": 0.330648,
+      "region": {
+        "index": 3,
+        "x": 704,
+        "y": 415,
+        "width": 1383,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "4000",
+      "confidence": 0.697641,
+      "region": {
+        "index": 4,
+        "x": 1160,
+        "y": 529,
+        "width": 168,
+        "height": 105,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "IPLA.B.B): Q.28571",
+      "confidence": 0.57263,
+      "region": {
+        "index": 5,
+        "x": 721,
+        "y": 625,
+        "width": 675,
+        "height": 144,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "women, i.1590for. 3.,",
+      "confidence": 0.54511,
+      "region": {
+        "index": 6,
+        "x": 326,
+        "y": 848,
+        "width": 715,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "IPIA, 15/013) c.a.883rd",
+      "confidence": 0.509584,
+      "region": {
+        "index": 7,
+        "x": 710,
+        "y": 947,
+        "width": 769,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "is stylification.",
+      "confidence": 0.425664,
+      "region": {
+        "index": 8,
+        "x": 549,
+        "y": 1067,
+        "width": 545,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "IPIA, MACLO, 3) - a. 3a1/b.",
+      "confidence": 0.562795,
+      "region": {
+        "index": 9,
+        "x": 721,
+        "y": 1175,
+        "width": 735,
+        "height": 151,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "# being enough.",
+      "confidence": 0.269941,
+      "region": {
+        "index": 10,
+        "x": 1701,
+        "y": 1283,
+        "width": 405,
+        "height": 110,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "0 1",
+      "confidence": 0.44757,
+      "region": {
+        "index": 11,
+        "x": 1348,
+        "y": 1422,
+        "width": 46,
+        "height": 51,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "Now, for I.14(6, present worth), PW.2O. \"...",
+      "confidence": 0.550221,
+      "region": {
+        "index": 12,
+        "x": 321,
+        "y": 1389,
+        "width": 1566,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "NZ-1600 * 300 (FIRST, NIGHT PRODUCTRALIAN- 600 (ever than",
+      "confidence": 0.209604,
+      "region": {
+        "index": 13,
+        "x": 320,
+        "y": 1483,
+        "width": 2117,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "0-16000 1800 (0.87719. 7,000 (0.96977) 1,000) 0.6719.)",
+      "confidence": 0.571107,
+      "region": {
+        "index": 14,
+        "x": 328,
+        "y": 1596,
+        "width": 1920,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "0 7 455.03",
+      "confidence": 0.815591,
+      "region": {
+        "index": 15,
+        "x": 353,
+        "y": 1716,
+        "width": 399,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "LADER OF (KENNIS ATV.T. \" MARKIN. reached",
+      "confidence": 0.28065,
+      "region": {
+        "index": 16,
+        "x": 881,
+        "y": 1824,
+        "width": 1203,
+        "height": 104,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "now 1/M, her satisfied # it",
+      "confidence": 0.41847,
+      "region": {
+        "index": 17,
+        "x": 323,
+        "y": 1895,
+        "width": 1183,
+        "height": 159,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "0-1600,4,000 (P.1520,1.400.P.1590.2/4,000,P.7590,B.B.",
+      "confidence": 0.474909,
+      "region": {
+        "index": 18,
+        "x": 339,
+        "y": 2013,
+        "width": 2049,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "0 - - 1600 to.86957. 4,00010.756141thodolio-65752)",
+      "confidence": 0.518199,
+      "region": {
+        "index": 19,
+        "x": 340,
+        "y": 2124,
+        "width": 1929,
+        "height": 129,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "0 7 1914-66",
+      "confidence": 0.834059,
+      "region": {
+        "index": 20,
+        "x": 348,
+        "y": 2230,
+        "width": 386,
+        "height": 125,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "none-interfontating. TOP 1000",
+      "confidence": 0.471389,
+      "region": {
+        "index": 21,
+        "x": 334,
+        "y": 2421,
+        "width": 1195,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "Fitzgerald FA",
+      "confidence": 0.228763,
+      "region": {
+        "index": 22,
+        "x": 1309,
+        "y": 2543,
+        "width": 200,
+        "height": 94,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "npw",
+      "confidence": 0.516189,
+      "region": {
+        "index": 23,
+        "x": 731,
+        "y": 2537,
+        "width": 193,
+        "height": 114,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "to",
+      "confidence": 0.478522,
+      "region": {
+        "index": 24,
+        "x": 1389,
+        "y": 2662,
+        "width": 115,
+        "height": 73,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "# the best of the best ever ever. It was not",
+      "confidence": 0.156283,
+      "region": {
+        "index": 25,
+        "x": 216,
+        "y": 2633,
+        "width": 832,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "ja",
+      "confidence": 0.733239,
+      "region": {
+        "index": 26,
+        "x": 921,
+        "y": 2690,
+        "width": 100,
+        "height": 104,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "o",
+      "confidence": 0.763052,
+      "region": {
+        "index": 27,
+        "x": 697,
+        "y": 2757,
+        "width": 52,
+        "height": 79,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "dut.",
+      "confidence": 0.464563,
+      "region": {
+        "index": 28,
+        "x": 180,
+        "y": 2768,
+        "width": 96,
+        "height": 73,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "15-5. 1946.",
+      "confidence": 0.585325,
+      "region": {
+        "index": 29,
+        "x": 337,
+        "y": 2834,
+        "width": 563,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "\" You're got the best appearance with the first appearance of the first time",
+      "confidence": 0.186432,
+      "region": {
+        "index": 30,
+        "x": 497,
+        "y": 3061,
+        "width": 1392,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "b.",
+      "confidence": 0.867895,
+      "region": {
+        "index": 31,
+        "x": 678,
+        "y": 3178,
+        "width": 60,
+        "height": 79,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "old of # and # pulling",
+      "confidence": 0.269589,
+      "region": {
+        "index": 32,
+        "x": 1136,
+        "y": 3186,
+        "width": 508,
+        "height": 117,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "\"014-019-455.083-000.000,000514-157",
+      "confidence": 0.43187,
+      "region": {
+        "index": 33,
+        "x": 292,
+        "y": 3228,
+        "width": 1348,
+        "height": 237,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "(4.55.03-1914.661 \" \" \"",
+      "confidence": 0.448119,
+      "region": {
+        "index": 34,
+        "x": 641,
+        "y": 3380,
+        "width": 1028,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "(I -157th. International route of return LIRR)",
+      "confidence": 0.464235,
+      "region": {
+        "index": 35,
+        "x": 452,
+        "y": 3577,
+        "width": 1713,
+        "height": 220,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0021/line_036.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 36
+}

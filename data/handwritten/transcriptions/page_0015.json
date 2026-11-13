@@ -1,0 +1,573 @@
+{
+  "source_image": "page_0015.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 40,
+  "elapsed_seconds": 266.57,
+  "text": "0 1\nTemporary of the American Americans\nEAVO - - B000D.AIR, 10/6.1a. 4,1800-10a50\n\" 30000 (0.146763) 47550\nES347.10\nat the school\nHexropolis of the Royal Navy of Scotland 1951 1951 American Christian Church\nBANZ2-Additional, 1010,1911. 400000. 1950.5001AIF.10,129\n\"44000010.146763) 17750.50001 0. 046763)\ncitation\nperformance that dead with an O.leadersmith\nProposal D is the best alternative, it has highest EAV.\na\"sunishment best marriage a number of babies and money.\nby present North-method issues such as the proposed cost of\n\" By to bring out to better-and and blugen still to work\nProposed A.002I. member to the situation of all men\na. 8000\nsp\na\n1 a\nctl\nd, b.1d\nlong\n\" upending # 500.\n10000\nPWA - - 1000 to 8000-5000 (PVA, 1090.1a.\n\" 1000 to 300 in. S.613699 W.C.P.000.000500052\nal South place.\n\" E.10441.08\n\" Probosall B.O. Feb. 1955 1955-\nPlate - - 1500-1 1,000 -6500 ((RIANDY, 1),\n415000745001 6.813697.000\nc.E15661.61\nstatutory anti-tax conference issues MAR\nCottonhead, Pennsylvania Department of Agriculture\nj Proposal c.\n\"PW. - 25000041H500-B.50. (P.A.1096,1A.4200D.P.F.10956,1a)\n\" A500D.B25016.81369. Federal_0-31863 1)\n- 218.000284\n0 1",
+  "lines": [
+    {
+      "line": 1,
+      "text": "0 1",
+      "confidence": 0.36558,
+      "region": {
+        "index": 0,
+        "x": 1899,
+        "y": 30,
+        "width": 96,
+        "height": 59,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "Temporary of the American Americans",
+      "confidence": 0.162056,
+      "region": {
+        "index": 1,
+        "x": 13,
+        "y": 114,
+        "width": 1535,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "EAVO - - B000D.AIR, 10/6.1a. 4,1800-10a50",
+      "confidence": 0.572906,
+      "region": {
+        "index": 2,
+        "x": 390,
+        "y": 217,
+        "width": 1340,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "\" 30000 (0.146763) 47550",
+      "confidence": 0.634979,
+      "region": {
+        "index": 3,
+        "x": 599,
+        "y": 325,
+        "width": 804,
+        "height": 117,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "ES347.10",
+      "confidence": 0.809323,
+      "region": {
+        "index": 4,
+        "x": 630,
+        "y": 427,
+        "width": 337,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "at the school",
+      "confidence": 0.340021,
+      "region": {
+        "index": 5,
+        "x": 1665,
+        "y": 527,
+        "width": 357,
+        "height": 104,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "Hexropolis of the Royal Navy of Scotland 1951 1951 American Christian Church",
+      "confidence": 0.173154,
+      "region": {
+        "index": 6,
+        "x": 209,
+        "y": 629,
+        "width": 1632,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "BANZ2-Additional, 1010,1911. 400000. 1950.5001AIF.10,129",
+      "confidence": 0.358194,
+      "region": {
+        "index": 7,
+        "x": 363,
+        "y": 717,
+        "width": 1981,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "\"44000010.146763) 17750.50001 0. 046763)",
+      "confidence": 0.669874,
+      "region": {
+        "index": 8,
+        "x": 533,
+        "y": 834,
+        "width": 1489,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "citation",
+      "confidence": 0.399781,
+      "region": {
+        "index": 9,
+        "x": 541,
+        "y": 953,
+        "width": 360,
+        "height": 134,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "performance that dead with an O.leadersmith",
+      "confidence": 0.380085,
+      "region": {
+        "index": 10,
+        "x": 757,
+        "y": 1043,
+        "width": 1193,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "Proposal D is the best alternative, it has highest EAV.",
+      "confidence": 0.892361,
+      "region": {
+        "index": 11,
+        "x": 282,
+        "y": 1143,
+        "width": 1980,
+        "height": 192,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "a\"sunishment best marriage a number of babies and money.",
+      "confidence": 0.390813,
+      "region": {
+        "index": 12,
+        "x": 358,
+        "y": 1264,
+        "width": 1598,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "by present North-method issues such as the proposed cost of",
+      "confidence": 0.412407,
+      "region": {
+        "index": 13,
+        "x": 104,
+        "y": 1366,
+        "width": 1902,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "\" By to bring out to better-and and blugen still to work",
+      "confidence": 0.388742,
+      "region": {
+        "index": 14,
+        "x": 253,
+        "y": 1475,
+        "width": 1767,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "Proposed A.002I. member to the situation of all men",
+      "confidence": 0.278684,
+      "region": {
+        "index": 15,
+        "x": 212,
+        "y": 1578,
+        "width": 1815,
+        "height": 175,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "a. 8000",
+      "confidence": 0.454182,
+      "region": {
+        "index": 16,
+        "x": 1244,
+        "y": 1664,
+        "width": 212,
+        "height": 112,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "sp",
+      "confidence": 0.837347,
+      "region": {
+        "index": 17,
+        "x": 1952,
+        "y": 1730,
+        "width": 53,
+        "height": 50,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "a",
+      "confidence": 0.961,
+      "region": {
+        "index": 18,
+        "x": 1558,
+        "y": 1759,
+        "width": 33,
+        "height": 29,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "1 a",
+      "confidence": 0.899192,
+      "region": {
+        "index": 19,
+        "x": 1251,
+        "y": 1752,
+        "width": 146,
+        "height": 50,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "ctl",
+      "confidence": 0.369429,
+      "region": {
+        "index": 20,
+        "x": 612,
+        "y": 1826,
+        "width": 110,
+        "height": 84,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "d, b.1d",
+      "confidence": 0.45271,
+      "region": {
+        "index": 21,
+        "x": 1451,
+        "y": 1897,
+        "width": 239,
+        "height": 102,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "long",
+      "confidence": 0.552494,
+      "region": {
+        "index": 22,
+        "x": 615,
+        "y": 1926,
+        "width": 119,
+        "height": 85,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "\" upending # 500.",
+      "confidence": 0.499918,
+      "region": {
+        "index": 23,
+        "x": 1224,
+        "y": 1963,
+        "width": 371,
+        "height": 137,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "10000",
+      "confidence": 0.825757,
+      "region": {
+        "index": 24,
+        "x": 702,
+        "y": 2117,
+        "width": 171,
+        "height": 115,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "PWA - - 1000 to 8000-5000 (PVA, 1090.1a.",
+      "confidence": 0.576604,
+      "region": {
+        "index": 25,
+        "x": 210,
+        "y": 2226,
+        "width": 1333,
+        "height": 182,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "\" 1000 to 300 in. S.613699 W.C.P.000.000500052",
+      "confidence": 0.268412,
+      "region": {
+        "index": 26,
+        "x": 395,
+        "y": 2329,
+        "width": 1609,
+        "height": 143,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "al South place.",
+      "confidence": 0.229512,
+      "region": {
+        "index": 27,
+        "x": 1494,
+        "y": 2437,
+        "width": 376,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "\" E.10441.08",
+      "confidence": 0.563117,
+      "region": {
+        "index": 28,
+        "x": 382,
+        "y": 2461,
+        "width": 448,
+        "height": 125,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "\" Probosall B.O. Feb. 1955 1955-",
+      "confidence": 0.320796,
+      "region": {
+        "index": 29,
+        "x": 210,
+        "y": 2645,
+        "width": 1816,
+        "height": 179,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "Plate - - 1500-1 1,000 -6500 ((RIANDY, 1),",
+      "confidence": 0.413192,
+      "region": {
+        "index": 30,
+        "x": 418,
+        "y": 2757,
+        "width": 1533,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "415000745001 6.813697.000",
+      "confidence": 0.395176,
+      "region": {
+        "index": 31,
+        "x": 610,
+        "y": 2878,
+        "width": 1049,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "c.E15661.61",
+      "confidence": 0.605365,
+      "region": {
+        "index": 32,
+        "x": 575,
+        "y": 2988,
+        "width": 381,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "statutory anti-tax conference issues MAR",
+      "confidence": 0.214924,
+      "region": {
+        "index": 33,
+        "x": 691,
+        "y": 3078,
+        "width": 1333,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "Cottonhead, Pennsylvania Department of Agriculture",
+      "confidence": 0.239992,
+      "region": {
+        "index": 34,
+        "x": 1202,
+        "y": 3211,
+        "width": 637,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "j Proposal c.",
+      "confidence": 0.736708,
+      "region": {
+        "index": 35,
+        "x": 200,
+        "y": 3180,
+        "width": 389,
+        "height": 178,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_036.png"
+    },
+    {
+      "line": 37,
+      "text": "\"PW. - 25000041H500-B.50. (P.A.1096,1A.4200D.P.F.10956,1a)",
+      "confidence": 0.562083,
+      "region": {
+        "index": 36,
+        "x": 331,
+        "y": 3296,
+        "width": 2027,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_037.png"
+    },
+    {
+      "line": 38,
+      "text": "\" A500D.B25016.81369. Federal_0-31863 1)",
+      "confidence": 0.45273,
+      "region": {
+        "index": 37,
+        "x": 504,
+        "y": 3418,
+        "width": 1361,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_038.png"
+    },
+    {
+      "line": 39,
+      "text": "- 218.000284",
+      "confidence": 0.478358,
+      "region": {
+        "index": 38,
+        "x": 516,
+        "y": 3526,
+        "width": 447,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_039.png"
+    },
+    {
+      "line": 40,
+      "text": "0 1",
+      "confidence": 0.50361,
+      "region": {
+        "index": 39,
+        "x": 1746,
+        "y": 3584,
+        "width": 39,
+        "height": 38,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0015/line_040.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 40
+}

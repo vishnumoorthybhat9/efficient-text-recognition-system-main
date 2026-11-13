@@ -1,0 +1,14 @@
+# Generated or downloaded datasets (recreate with the scripts, see README)
+raw/
+processed/
+demo/
+
+# User uploads and personal images
+uploads/
+user_images/
+
+# Large handwritten page scans (transcriptions are kept)
+handwritten/images/
+
+# Generated test images
+test_images/generated/

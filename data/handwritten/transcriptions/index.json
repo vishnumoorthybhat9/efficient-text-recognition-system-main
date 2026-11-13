@@ -1,0 +1,222 @@
+{
+  "status": "ocr_draft_unverified",
+  "source_directory": "C:\\Users\\ASUS\\OneDrive\\Desktop\\major\\efficient-text-recognition-system-main\\data\\handwritten\\images",
+  "output_directory": "C:\\Users\\ASUS\\OneDrive\\Desktop\\major\\efficient-text-recognition-system-main\\data\\handwritten\\transcriptions",
+  "model_id": "trocr_base",
+  "device": "cpu",
+  "processed_pages": 42,
+  "failed_pages": [],
+  "review_required": true,
+  "pages": [
+    {
+      "source_image": "page_0001.jpg",
+      "text_file": "page_0001.txt",
+      "line_count": 35
+    },
+    {
+      "source_image": "page_0002.jpg",
+      "text_file": "page_0002.txt",
+      "line_count": 50
+    },
+    {
+      "source_image": "page_0003.jpg",
+      "text_file": "page_0003.txt",
+      "line_count": 29
+    },
+    {
+      "source_image": "page_0004.jpg",
+      "text_file": "page_0004.txt",
+      "line_count": 36
+    },
+    {
+      "source_image": "page_0005.jpg",
+      "text_file": "page_0005.txt",
+      "line_count": 47
+    },
+    {
+      "source_image": "page_0006.jpg",
+      "text_file": "page_0006.txt",
+      "line_count": 35
+    },
+    {
+      "source_image": "page_0007.jpg",
+      "text_file": "page_0007.txt",
+      "line_count": 35
+    },
+    {
+      "source_image": "page_0008.jpg",
+      "text_file": "page_0008.txt",
+      "line_count": 37
+    },
+    {
+      "source_image": "page_0009.jpg",
+      "text_file": "page_0009.txt",
+      "line_count": 40
+    },
+    {
+      "source_image": "page_0010.jpg",
+      "text_file": "page_0010.txt",
+      "line_count": 39
+    },
+    {
+      "source_image": "page_0011.jpg",
+      "text_file": "page_0011.txt",
+      "line_count": 37
+    },
+    {
+      "source_image": "page_0012.jpg",
+      "text_file": "page_0012.txt",
+      "line_count": 38
+    },
+    {
+      "source_image": "page_0013.jpg",
+      "text_file": "page_0013.txt",
+      "line_count": 39
+    },
+    {
+      "source_image": "page_0014.jpg",
+      "text_file": "page_0014.txt",
+      "line_count": 40
+    },
+    {
+      "source_image": "page_0015.jpg",
+      "text_file": "page_0015.txt",
+      "line_count": 40
+    },
+    {
+      "source_image": "page_0016.jpg",
+      "text_file": "page_0016.txt",
+      "line_count": 41
+    },
+    {
+      "source_image": "page_0017.jpg",
+      "text_file": "page_0017.txt",
+      "line_count": 35
+    },
+    {
+      "source_image": "page_0018.jpg",
+      "text_file": "page_0018.txt",
+      "line_count": 27
+    },
+    {
+      "source_image": "page_0019.jpg",
+      "text_file": "page_0019.txt",
+      "line_count": 34
+    },
+    {
+      "source_image": "page_0020.jpg",
+      "text_file": "page_0020.txt",
+      "line_count": 36
+    },
+    {
+      "source_image": "page_0021.jpg",
+      "text_file": "page_0021.txt",
+      "line_count": 36
+    },
+    {
+      "source_image": "page_0022.jpg",
+      "text_file": "page_0022.txt",
+      "line_count": 34
+    },
+    {
+      "source_image": "page_0023.jpg",
+      "text_file": "page_0023.txt",
+      "line_count": 30
+    },
+    {
+      "source_image": "page_0024.jpg",
+      "text_file": "page_0024.txt",
+      "line_count": 33
+    },
+    {
+      "source_image": "page_0025.jpg",
+      "text_file": "page_0025.txt",
+      "line_count": 38
+    },
+    {
+      "source_image": "page_0026.jpg",
+      "text_file": "page_0026.txt",
+      "line_count": 35
+    },
+    {
+      "source_image": "page_0027.jpg",
+      "text_file": "page_0027.txt",
+      "line_count": 32
+    },
+    {
+      "source_image": "page_0028.jpg",
+      "text_file": "page_0028.txt",
+      "line_count": 30
+    },
+    {
+      "source_image": "page_0029.jpg",
+      "text_file": "page_0029.txt",
+      "line_count": 41
+    },
+    {
+      "source_image": "page_0030.jpg",
+      "text_file": "page_0030.txt",
+      "line_count": 38
+    },
+    {
+      "source_image": "page_0031.jpg",
+      "text_file": "page_0031.txt",
+      "line_count": 26
+    },
+    {
+      "source_image": "page_0032.jpg",
+      "text_file": "page_0032.txt",
+      "line_count": 40
+    },
+    {
+      "source_image": "page_0033.jpg",
+      "text_file": "page_0033.txt",
+      "line_count": 33
+    },
+    {
+      "source_image": "page_0034.jpg",
+      "text_file": "page_0034.txt",
+      "line_count": 40
+    },
+    {
+      "source_image": "page_0035.jpg",
+      "text_file": "page_0035.txt",
+      "line_count": 29
+    },
+    {
+      "source_image": "page_0036.jpg",
+      "text_file": "page_0036.txt",
+      "line_count": 13
+    },
+    {
+      "source_image": "page_0037.jpg",
+      "text_file": "page_0037.txt",
+      "line_count": 8
+    },
+    {
+      "source_image": "page_0038.jpg",
+      "text_file": "page_0038.txt",
+      "line_count": 36
+    },
+    {
+      "source_image": "page_0039.jpg",
+      "text_file": "page_0039.txt",
+      "line_count": 33
+    },
+    {
+      "source_image": "page_0040.jpg",
+      "text_file": "page_0040.txt",
+      "line_count": 41
+    },
+    {
+      "source_image": "page_0041.jpg",
+      "text_file": "page_0041.txt",
+      "line_count": 39
+    },
+    {
+      "source_image": "page_0042.jpg",
+      "text_file": "page_0042.txt",
+      "line_count": 9
+    }
+  ]
+}

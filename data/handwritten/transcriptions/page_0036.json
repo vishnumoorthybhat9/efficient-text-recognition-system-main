@@ -1,0 +1,195 @@
+{
+  "source_image": "page_0036.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 13,
+  "elapsed_seconds": 36.22,
+  "text": "# Only if the current, MP of an equity share is 2120, calculate\n\" will then cost of existing equity capital. In addition) it\naircraft stop sent not a forbidden sports attempt of the mission. 2 as\n5 1\na must be # but Amelia sent a limited piece of articles at\nsdr.\npassiving to the siti-\nsentented money.\nTABLE as \" annulico's things \" to bring the France to association\nhip ke-12. 4 0.05-1590.000000\n0) 1\ntao\nONCE Employment Act-in",
+  "lines": [
+    {
+      "line": 1,
+      "text": "# Only if the current, MP of an equity share is 2120, calculate",
+      "confidence": 0.632286,
+      "region": {
+        "index": 0,
+        "x": 10,
+        "y": 157,
+        "width": 3722,
+        "height": 259,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "\" will then cost of existing equity capital. In addition) it",
+      "confidence": 0.450675,
+      "region": {
+        "index": 1,
+        "x": 136,
+        "y": 326,
+        "width": 3186,
+        "height": 260,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "aircraft stop sent not a forbidden sports attempt of the mission. 2 as",
+      "confidence": 0.338279,
+      "region": {
+        "index": 2,
+        "x": 72,
+        "y": 506,
+        "width": 3256,
+        "height": 195,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "5 1",
+      "confidence": 0.393547,
+      "region": {
+        "index": 3,
+        "x": 1974,
+        "y": 657,
+        "width": 76,
+        "height": 62,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "a must be # but Amelia sent a limited piece of articles at",
+      "confidence": 0.296863,
+      "region": {
+        "index": 4,
+        "x": 524,
+        "y": 667,
+        "width": 2804,
+        "height": 206,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "sdr.",
+      "confidence": 0.443778,
+      "region": {
+        "index": 5,
+        "x": 226,
+        "y": 642,
+        "width": 252,
+        "height": 230,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "passiving to the siti-",
+      "confidence": 0.375078,
+      "region": {
+        "index": 6,
+        "x": 80,
+        "y": 839,
+        "width": 839,
+        "height": 212,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "sentented money.",
+      "confidence": 0.39427,
+      "region": {
+        "index": 7,
+        "x": 2791,
+        "y": 847,
+        "width": 539,
+        "height": 185,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "TABLE as \" annulico's things \" to bring the France to association",
+      "confidence": 0.357386,
+      "region": {
+        "index": 8,
+        "x": 81,
+        "y": 986,
+        "width": 3238,
+        "height": 214,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "hip ke-12. 4 0.05-1590.000000",
+      "confidence": 0.480671,
+      "region": {
+        "index": 9,
+        "x": 292,
+        "y": 1314,
+        "width": 3020,
+        "height": 254,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "0) 1",
+      "confidence": 0.564032,
+      "region": {
+        "index": 10,
+        "x": 2580,
+        "y": 1464,
+        "width": 217,
+        "height": 184,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "tao",
+      "confidence": 0.630691,
+      "region": {
+        "index": 11,
+        "x": 892,
+        "y": 1490,
+        "width": 248,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "ONCE Employment Act-in",
+      "confidence": 0.316985,
+      "region": {
+        "index": 12,
+        "x": 1662,
+        "y": 1655,
+        "width": 1627,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0036/line_013.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 13
+}

@@ -1,0 +1,32 @@
+# ===========================================================================
+# Stage 2b -- TREATMENT arm of the research experiment.
+#
+# Identical to `baseline_scratch.yaml` except that the CNN encoder is
+# initialised from the SimCLR checkpoint produced in stage 1.
+#
+#   python scripts/train_crnn.py --config configs/experiments/simclr_finetune.yaml
+#
+# Requires `scripts/pretrain_simclr.py` to have run first.
+# ===========================================================================
+extends: default.yaml
+
+name: simclr_finetune
+
+data:
+  max_train_samples: 2000   # must match baseline_scratch for a fair comparison
+
+model:
+  # Role in the controlled comparison; see docs/RESULTS.md.
+  experiment_arm: treatment
+  init_encoder_from: artifacts/checkpoints/simclr_pretrain/encoder_best.pt
+  # Freeze the transferred encoder for the first N epochs so the randomly
+  # initialised head does not destroy the pretrained features.
+  freeze_encoder_epochs: 2
+
+train:
+  epochs: 25
+  batch_size: 32
+  learning_rate: 0.0008
+  seed: 42
+  # Trainers append the run name; the registry discovers this direct child.
+  checkpoint_dir: artifacts/checkpoints

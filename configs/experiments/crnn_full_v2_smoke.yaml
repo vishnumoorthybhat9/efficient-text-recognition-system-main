@@ -1,0 +1,10 @@
+extends: crnn_full_v2.yaml
+
+name: _smoke_crnn
+
+model:
+  init_encoder_from: null
+  freeze_encoder_epochs: 0
+
+train:
+  epochs: 1

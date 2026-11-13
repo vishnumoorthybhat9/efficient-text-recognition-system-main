@@ -1,0 +1,671 @@
+{
+  "source_image": "page_0005.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 47,
+  "elapsed_seconds": 176.19,
+  "text": "bate.\npage.\nv.\n(Avg-revenue in-1000,410004,0004.40004160004200.\n(55 years\n5\nsmallized EUHUDO serious increase to attack\nReferences edit\njebits millions 800, Zhao\nadministration\nEDIT (I -T) - b 400 (1/0.5) - 32200\ndesigned in the battle clear in Britain will\n0\nto-H.IN. O.C.40000040-SECOGO.000 NEW. NEW\nplay, 2after Louis Ellis will not be used in a small music\n0 1\nstate 12 submit with what it may not stalenloc.\n(AIRR. 3 DOWN x100-AB.000sized at noon\n20000\na QUADOVER-that the same event. Liquid in!\na \" calculate the ARR e select the best proposal for investment!\n\" from the following alternatives both the proposals work for\nare Leopois.\n5 years.\n8. Agriculture.\n# the best time\nparticulars. If proposal A proponal B\n(EOBITAL M-TIENNIA AND ALL DISDONED WOODSON S.CIPHOOD\n50000\ncost\n65000\nTakeage-Online agent, one. 3,000000 (5,2,4,400. and A\nother thousands sent to a result of rent cold with the\nobjects a nuclear health-white-sharing with steelworking.\n\" Phobosala to Jimmy went out a whitebeard on politicalized.\n-3600075. And Habitual Britain\nARR p\n\" 500, \" ((500,000,000).\nexcept started.\n2\na b. Philip Robertson\n(proposal R.\n188091 Proposal A is\npreferred since, \"\nAPRE GENERAL ELECTOR S. WESTOR GENERAL\n(600000 t. 400000).\n2",
+  "lines": [
+    {
+      "line": 1,
+      "text": "bate.",
+      "confidence": 0.9247,
+      "region": {
+        "index": 0,
+        "x": 1822,
+        "y": 46,
+        "width": 105,
+        "height": 66,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "page.",
+      "confidence": 0.913792,
+      "region": {
+        "index": 1,
+        "x": 1813,
+        "y": 95,
+        "width": 119,
+        "height": 80,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "v.",
+      "confidence": 0.581828,
+      "region": {
+        "index": 2,
+        "x": 782,
+        "y": 382,
+        "width": 32,
+        "height": 32,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "(Avg-revenue in-1000,410004,0004.40004160004200.",
+      "confidence": 0.533676,
+      "region": {
+        "index": 3,
+        "x": 252,
+        "y": 354,
+        "width": 1997,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "(55 years",
+      "confidence": 0.608533,
+      "region": {
+        "index": 4,
+        "x": 262,
+        "y": 453,
+        "width": 315,
+        "height": 156,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "5",
+      "confidence": 0.963895,
+      "region": {
+        "index": 5,
+        "x": 1561,
+        "y": 504,
+        "width": 71,
+        "height": 86,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "smallized EUHUDO serious increase to attack",
+      "confidence": 0.307517,
+      "region": {
+        "index": 6,
+        "x": 749,
+        "y": 589,
+        "width": 1265,
+        "height": 124,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "References edit",
+      "confidence": 0.362508,
+      "region": {
+        "index": 7,
+        "x": 1407,
+        "y": 717,
+        "width": 181,
+        "height": 77,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "jebits millions 800, Zhao",
+      "confidence": 0.431467,
+      "region": {
+        "index": 8,
+        "x": 256,
+        "y": 776,
+        "width": 1126,
+        "height": 156,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "administration",
+      "confidence": 0.419976,
+      "region": {
+        "index": 9,
+        "x": 1026,
+        "y": 893,
+        "width": 271,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "EDIT (I -T) - b 400 (1/0.5) - 32200",
+      "confidence": 0.653395,
+      "region": {
+        "index": 10,
+        "x": 250,
+        "y": 978,
+        "width": 1375,
+        "height": 158,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "designed in the battle clear in Britain will",
+      "confidence": 0.512889,
+      "region": {
+        "index": 11,
+        "x": 899,
+        "y": 1113,
+        "width": 1105,
+        "height": 112,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "0",
+      "confidence": 0.336385,
+      "region": {
+        "index": 12,
+        "x": 1411,
+        "y": 1154,
+        "width": 57,
+        "height": 45,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "to-H.IN. O.C.40000040-SECOGO.000 NEW. NEW",
+      "confidence": 0.293877,
+      "region": {
+        "index": 13,
+        "x": 244,
+        "y": 1185,
+        "width": 1758,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "play, 2after Louis Ellis will not be used in a small music",
+      "confidence": 0.316433,
+      "region": {
+        "index": 14,
+        "x": 231,
+        "y": 1311,
+        "width": 1760,
+        "height": 118,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "0 1",
+      "confidence": 0.494669,
+      "region": {
+        "index": 15,
+        "x": 240,
+        "y": 1425,
+        "width": 111,
+        "height": 80,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "state 12 submit with what it may not stalenloc.",
+      "confidence": 0.365466,
+      "region": {
+        "index": 16,
+        "x": 591,
+        "y": 1416,
+        "width": 1408,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "(AIRR. 3 DOWN x100-AB.000sized at noon",
+      "confidence": 0.290026,
+      "region": {
+        "index": 17,
+        "x": 224,
+        "y": 1509,
+        "width": 1747,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "20000",
+      "confidence": 0.93011,
+      "region": {
+        "index": 18,
+        "x": 553,
+        "y": 1629,
+        "width": 258,
+        "height": 112,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "a QUADOVER-that the same event. Liquid in!",
+      "confidence": 0.273081,
+      "region": {
+        "index": 19,
+        "x": 966,
+        "y": 1729,
+        "width": 1029,
+        "height": 129,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "a \" calculate the ARR e select the best proposal for investment!",
+      "confidence": 0.663291,
+      "region": {
+        "index": 20,
+        "x": 95,
+        "y": 1809,
+        "width": 2245,
+        "height": 177,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "\" from the following alternatives both the proposals work for",
+      "confidence": 0.943457,
+      "region": {
+        "index": 21,
+        "x": 195,
+        "y": 1929,
+        "width": 2064,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "are Leopois.",
+      "confidence": 0.405545,
+      "region": {
+        "index": 22,
+        "x": 1299,
+        "y": 2051,
+        "width": 374,
+        "height": 103,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "5 years.",
+      "confidence": 0.99942,
+      "region": {
+        "index": 23,
+        "x": 222,
+        "y": 2033,
+        "width": 321,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "8. Agriculture.",
+      "confidence": 0.469213,
+      "region": {
+        "index": 24,
+        "x": 1389,
+        "y": 2156,
+        "width": 330,
+        "height": 102,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "# the best time",
+      "confidence": 0.127287,
+      "region": {
+        "index": 25,
+        "x": 288,
+        "y": 2161,
+        "width": 490,
+        "height": 103,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "particulars. If proposal A proponal B",
+      "confidence": 0.665471,
+      "region": {
+        "index": 26,
+        "x": 212,
+        "y": 2247,
+        "width": 1590,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "(EOBITAL M-TIENNIA AND ALL DISDONED WOODSON S.CIPHOOD",
+      "confidence": 0.275113,
+      "region": {
+        "index": 27,
+        "x": 206,
+        "y": 2353,
+        "width": 1532,
+        "height": 133,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "50000",
+      "confidence": 0.919415,
+      "region": {
+        "index": 28,
+        "x": 995,
+        "y": 2473,
+        "width": 202,
+        "height": 102,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "cost",
+      "confidence": 0.881187,
+      "region": {
+        "index": 29,
+        "x": 337,
+        "y": 2472,
+        "width": 150,
+        "height": 111,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "65000",
+      "confidence": 0.585637,
+      "region": {
+        "index": 30,
+        "x": 1516,
+        "y": 2477,
+        "width": 210,
+        "height": 102,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "Takeage-Online agent, one. 3,000000 (5,2,4,400. and A",
+      "confidence": 0.32846,
+      "region": {
+        "index": 31,
+        "x": 215,
+        "y": 2567,
+        "width": 1719,
+        "height": 130,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "other thousands sent to a result of rent cold with the",
+      "confidence": 0.353424,
+      "region": {
+        "index": 32,
+        "x": 476,
+        "y": 2673,
+        "width": 1499,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "objects a nuclear health-white-sharing with steelworking.",
+      "confidence": 0.539215,
+      "region": {
+        "index": 33,
+        "x": 364,
+        "y": 2777,
+        "width": 1595,
+        "height": 119,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "\" Phobosala to Jimmy went out a whitebeard on politicalized.",
+      "confidence": 0.312152,
+      "region": {
+        "index": 34,
+        "x": 178,
+        "y": 2870,
+        "width": 1820,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "-3600075. And Habitual Britain",
+      "confidence": 0.371059,
+      "region": {
+        "index": 35,
+        "x": 500,
+        "y": 3087,
+        "width": 1594,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_036.png"
+    },
+    {
+      "line": 37,
+      "text": "ARR p",
+      "confidence": 0.632179,
+      "region": {
+        "index": 36,
+        "x": 296,
+        "y": 3088,
+        "width": 200,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_037.png"
+    },
+    {
+      "line": 38,
+      "text": "\" 500, \" ((500,000,000).",
+      "confidence": 0.469651,
+      "region": {
+        "index": 37,
+        "x": 363,
+        "y": 3186,
+        "width": 647,
+        "height": 141,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_038.png"
+    },
+    {
+      "line": 39,
+      "text": "except started.",
+      "confidence": 0.47695,
+      "region": {
+        "index": 38,
+        "x": 1665,
+        "y": 3221,
+        "width": 288,
+        "height": 98,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_039.png"
+    },
+    {
+      "line": 40,
+      "text": "2",
+      "confidence": 0.967652,
+      "region": {
+        "index": 39,
+        "x": 748,
+        "y": 3289,
+        "width": 73,
+        "height": 96,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_040.png"
+    },
+    {
+      "line": 41,
+      "text": "a b. Philip Robertson",
+      "confidence": 0.14215,
+      "region": {
+        "index": 40,
+        "x": 1292,
+        "y": 3316,
+        "width": 554,
+        "height": 101,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_041.png"
+    },
+    {
+      "line": 42,
+      "text": "(proposal R.",
+      "confidence": 0.850685,
+      "region": {
+        "index": 41,
+        "x": 175,
+        "y": 3389,
+        "width": 365,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_042.png"
+    },
+    {
+      "line": 43,
+      "text": "188091 Proposal A is",
+      "confidence": 0.50952,
+      "region": {
+        "index": 42,
+        "x": 1313,
+        "y": 3406,
+        "width": 922,
+        "height": 164,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_043.png"
+    },
+    {
+      "line": 44,
+      "text": "preferred since, \"",
+      "confidence": 0.861371,
+      "region": {
+        "index": 43,
+        "x": 1710,
+        "y": 3517,
+        "width": 615,
+        "height": 174,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_044.png"
+    },
+    {
+      "line": 45,
+      "text": "APRE GENERAL ELECTOR S. WESTOR GENERAL",
+      "confidence": 0.202949,
+      "region": {
+        "index": 44,
+        "x": 268,
+        "y": 3597,
+        "width": 1950,
+        "height": 203,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_045.png"
+    },
+    {
+      "line": 46,
+      "text": "(600000 t. 400000).",
+      "confidence": 0.588051,
+      "region": {
+        "index": 45,
+        "x": 568,
+        "y": 3728,
+        "width": 471,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_046.png"
+    },
+    {
+      "line": 47,
+      "text": "2",
+      "confidence": 0.65205,
+      "region": {
+        "index": 46,
+        "x": 771,
+        "y": 3831,
+        "width": 73,
+        "height": 95,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0005/line_047.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 47
+}

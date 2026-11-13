@@ -1,0 +1,72 @@
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-*/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Environment -----------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Caches (kept off the system drive, see README) ------------------------
+.cache/
+
+# --- Node / frontend -------------------------------------------------------
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- Generated data & artifacts -------------------------------------------
+data/raw/
+data/processed/
+data/uploads/
+data/demo/
+data/user_images/
+artifacts/checkpoints/
+artifacts/logs/
+artifacts/reports/
+artifacts/figures/
+artifacts/*.db
+artifacts/*.db-journal
+# SQLite write-ahead log and shared-memory files: transient, and committing
+# them would publish a half-written database.
+artifacts/*.db-wal
+artifacts/*.db-shm
+*.log
+
+# --- Model weights & archives (over GitHub's 100 MB file limit) ------------
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# --- EFFICIENT dataset (~1.4 GB) -------------------------------------------
+EFFICIENT/data/
+EFFICIENT/data.zip
+
+# --- Editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.lnk
+New folder/
+
+# --- The synopsis stays local ----------------------------------------------
+# The project brief is kept in the working directory but deliberately not
+# published: it is the author's own submission document, not source.
+Synopsis_Major_project_Main.pdf

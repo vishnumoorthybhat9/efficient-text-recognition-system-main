@@ -1,0 +1,475 @@
+{
+  "source_image": "page_0024.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 33,
+  "elapsed_seconds": 146.74,
+  "text": "taticship.\n# 50 good school. P.P.8P.S.M.S RES.000 (P.F.B.?\n# not be. but it was being the best in a table #\naaa-68000,000\nnow, Interpolating\ni.i. even\nto # 874.5 J.A.).\no\nLilly's boys are also\n7-a.lda145.01. no. (7.89\n(27.14.5-aaa.68)\nmakes that you know\na circumstance and\na. 8.08970\n2\n2011 12\na. \" Two mutually exclusive projects are being considered -\nProject X requires 2500 n. no results in a return of\n# about the end of 5 hrs. Project 4. also requires 2500\nbut will return into each year. for next 5yrs.\nfind which alternative in he selected based on international\npriote of return. \" 100 1.1.2 1.2.2\nthe upper of the same way\nProject y\nProject X\na2170\nHe was also purchased by the only course\nspaper\n0\n0\na 34545\n500\n500",
+  "lines": [
+    {
+      "line": 1,
+      "text": "taticship.",
+      "confidence": 0.558425,
+      "region": {
+        "index": 0,
+        "x": 277,
+        "y": 38,
+        "width": 352,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "# 50 good school. P.P.8P.S.M.S RES.000 (P.F.B.?",
+      "confidence": 0.449175,
+      "region": {
+        "index": 1,
+        "x": 305,
+        "y": 143,
+        "width": 1743,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "# not be. but it was being the best in a table #",
+      "confidence": 0.211468,
+      "region": {
+        "index": 2,
+        "x": 575,
+        "y": 249,
+        "width": 1981,
+        "height": 196,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "aaa-68000,000",
+      "confidence": 0.598509,
+      "region": {
+        "index": 3,
+        "x": 594,
+        "y": 374,
+        "width": 565,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "now, Interpolating",
+      "confidence": 0.879894,
+      "region": {
+        "index": 4,
+        "x": 320,
+        "y": 584,
+        "width": 771,
+        "height": 148,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "i.i. even",
+      "confidence": 0.380981,
+      "region": {
+        "index": 5,
+        "x": 439,
+        "y": 808,
+        "width": 537,
+        "height": 122,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "to # 874.5 J.A.).",
+      "confidence": 0.468423,
+      "region": {
+        "index": 6,
+        "x": 388,
+        "y": 903,
+        "width": 977,
+        "height": 238,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "o",
+      "confidence": 0.792919,
+      "region": {
+        "index": 7,
+        "x": 933,
+        "y": 1058,
+        "width": 47,
+        "height": 62,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "Lilly's boys are also",
+      "confidence": 0.225353,
+      "region": {
+        "index": 8,
+        "x": 257,
+        "y": 1127,
+        "width": 876,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "7-a.lda145.01. no. (7.89",
+      "confidence": 0.527006,
+      "region": {
+        "index": 9,
+        "x": 457,
+        "y": 1331,
+        "width": 1385,
+        "height": 193,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "(27.14.5-aaa.68)",
+      "confidence": 0.70269,
+      "region": {
+        "index": 10,
+        "x": 814,
+        "y": 1448,
+        "width": 715,
+        "height": 158,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "makes that you know",
+      "confidence": 0.231768,
+      "region": {
+        "index": 11,
+        "x": 903,
+        "y": 1588,
+        "width": 358,
+        "height": 71,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "a circumstance and",
+      "confidence": 0.339222,
+      "region": {
+        "index": 12,
+        "x": 1657,
+        "y": 1579,
+        "width": 515,
+        "height": 89,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "a. 8.08970",
+      "confidence": 0.606835,
+      "region": {
+        "index": 13,
+        "x": 605,
+        "y": 1654,
+        "width": 456,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "2",
+      "confidence": 0.931509,
+      "region": {
+        "index": 14,
+        "x": 692,
+        "y": 1697,
+        "width": 67,
+        "height": 71,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "2011 12",
+      "confidence": 0.585743,
+      "region": {
+        "index": 15,
+        "x": 1331,
+        "y": 1783,
+        "width": 230,
+        "height": 110,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "a. \" Two mutually exclusive projects are being considered -",
+      "confidence": 0.890652,
+      "region": {
+        "index": 16,
+        "x": 187,
+        "y": 1971,
+        "width": 2299,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "Project X requires 2500 n. no results in a return of",
+      "confidence": 0.640372,
+      "region": {
+        "index": 17,
+        "x": 321,
+        "y": 2079,
+        "width": 2046,
+        "height": 173,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "# about the end of 5 hrs. Project 4. also requires 2500",
+      "confidence": 0.762441,
+      "region": {
+        "index": 18,
+        "x": 328,
+        "y": 2187,
+        "width": 2171,
+        "height": 167,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "but will return into each year. for next 5yrs.",
+      "confidence": 0.653767,
+      "region": {
+        "index": 19,
+        "x": 559,
+        "y": 2288,
+        "width": 1854,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "find which alternative in he selected based on international",
+      "confidence": 0.866438,
+      "region": {
+        "index": 20,
+        "x": 329,
+        "y": 2385,
+        "width": 2294,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "priote of return. \" 100 1.1.2 1.2.2",
+      "confidence": 0.39632,
+      "region": {
+        "index": 21,
+        "x": 323,
+        "y": 2518,
+        "width": 1398,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "the upper of the same way",
+      "confidence": 0.250969,
+      "region": {
+        "index": 22,
+        "x": 1075,
+        "y": 2615,
+        "width": 865,
+        "height": 141,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "Project y",
+      "confidence": 0.805994,
+      "region": {
+        "index": 23,
+        "x": 1673,
+        "y": 2729,
+        "width": 349,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "Project X",
+      "confidence": 0.936359,
+      "region": {
+        "index": 24,
+        "x": 335,
+        "y": 2736,
+        "width": 411,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "a2170",
+      "confidence": 0.786558,
+      "region": {
+        "index": 25,
+        "x": 2012,
+        "y": 2890,
+        "width": 235,
+        "height": 129,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "He was also purchased by the only course",
+      "confidence": 0.403903,
+      "region": {
+        "index": 26,
+        "x": 302,
+        "y": 2954,
+        "width": 1368,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "spaper",
+      "confidence": 0.443966,
+      "region": {
+        "index": 27,
+        "x": 1898,
+        "y": 3074,
+        "width": 321,
+        "height": 74,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "0",
+      "confidence": 0.744616,
+      "region": {
+        "index": 28,
+        "x": 1661,
+        "y": 3172,
+        "width": 46,
+        "height": 52,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "0",
+      "confidence": 0.816683,
+      "region": {
+        "index": 29,
+        "x": 435,
+        "y": 3182,
+        "width": 51,
+        "height": 58,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "a 34545",
+      "confidence": 0.735402,
+      "region": {
+        "index": 30,
+        "x": 750,
+        "y": 3177,
+        "width": 446,
+        "height": 89,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "500",
+      "confidence": 0.855001,
+      "region": {
+        "index": 31,
+        "x": 1677,
+        "y": 3409,
+        "width": 113,
+        "height": 80,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "500",
+      "confidence": 0.954618,
+      "region": {
+        "index": 32,
+        "x": 433,
+        "y": 3424,
+        "width": 130,
+        "height": 105,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0024/line_033.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 33
+}

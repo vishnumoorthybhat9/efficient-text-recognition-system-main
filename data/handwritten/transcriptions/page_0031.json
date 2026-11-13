@@ -1,0 +1,377 @@
+{
+  "source_image": "page_0031.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 26,
+  "elapsed_seconds": 120.61,
+  "text": "# COST OF CAPITAL ELECTOR AIR RE-A.U.P.S.SILV. W.C.CX\nMRB-Q.G.HAILocation with messages later\nProject is economically not feasible, was I RR is lower\nthan the cost of capital #\nindividual course a agriculture hall\ncost of preference share (k.p) (indeedeemable),\n# x 100, \" -\nOST Run-ID.\nNP. \" Didification\ncost of redeemable preference shares,0001001\ndependents\nBP. DENNERVENDOX 100\nTairston\nDNA company issued an preference shares of 3100 each.\nredeemable at no minimum after in years. calculate\n\" the cost of preference shares. \"000000 \" it was\nuntifolent, petition to terms such\nframework good in\nset,\n# it? I have valued two, RN. 400 4/0Y. 7. 5.10\n1\nMP. 2100, NZ 10yrs.\nmore-simple prior to trouble something since it, the\n# the next two-nd tier-end round\n\" Oh I'm I'm going into\n- 9.500jo.",
+  "lines": [
+    {
+      "line": 1,
+      "text": "# COST OF CAPITAL ELECTOR AIR RE-A.U.P.S.SILV. W.C.CX",
+      "confidence": 0.418056,
+      "region": {
+        "index": 0,
+        "x": 218,
+        "y": 91,
+        "width": 2089,
+        "height": 198,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "MRB-Q.G.HAILocation with messages later",
+      "confidence": 0.365244,
+      "region": {
+        "index": 1,
+        "x": 661,
+        "y": 210,
+        "width": 1649,
+        "height": 192,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "Project is economically not feasible, was I RR is lower",
+      "confidence": 0.776339,
+      "region": {
+        "index": 2,
+        "x": 306,
+        "y": 328,
+        "width": 2340,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "than the cost of capital #",
+      "confidence": 0.423719,
+      "region": {
+        "index": 3,
+        "x": 226,
+        "y": 454,
+        "width": 2076,
+        "height": 208,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "individual course a agriculture hall",
+      "confidence": 0.436689,
+      "region": {
+        "index": 4,
+        "x": 1151,
+        "y": 597,
+        "width": 1140,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "cost of preference share (k.p) (indeedeemable),",
+      "confidence": 0.666674,
+      "region": {
+        "index": 5,
+        "x": 203,
+        "y": 828,
+        "width": 2062,
+        "height": 181,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "# x 100, \" -",
+      "confidence": 0.255033,
+      "region": {
+        "index": 6,
+        "x": 794,
+        "y": 1074,
+        "width": 1470,
+        "height": 202,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "OST Run-ID.",
+      "confidence": 0.57751,
+      "region": {
+        "index": 7,
+        "x": 398,
+        "y": 1089,
+        "width": 520,
+        "height": 123,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "NP. \" Didification",
+      "confidence": 0.393525,
+      "region": {
+        "index": 8,
+        "x": 824,
+        "y": 1220,
+        "width": 592,
+        "height": 119,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "cost of redeemable preference shares,0001001",
+      "confidence": 0.773402,
+      "region": {
+        "index": 9,
+        "x": 201,
+        "y": 1448,
+        "width": 2070,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "dependents",
+      "confidence": 0.349899,
+      "region": {
+        "index": 10,
+        "x": 674,
+        "y": 1593,
+        "width": 355,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "BP. DENNERVENDOX 100",
+      "confidence": 0.461441,
+      "region": {
+        "index": 11,
+        "x": 524,
+        "y": 1678,
+        "width": 1503,
+        "height": 226,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "Tairston",
+      "confidence": 0.363173,
+      "region": {
+        "index": 12,
+        "x": 986,
+        "y": 1819,
+        "width": 642,
+        "height": 159,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "DNA company issued an preference shares of 3100 each.",
+      "confidence": 0.566982,
+      "region": {
+        "index": 13,
+        "x": 41,
+        "y": 2056,
+        "width": 2605,
+        "height": 224,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "redeemable at no minimum after in years. calculate",
+      "confidence": 0.688939,
+      "region": {
+        "index": 14,
+        "x": 159,
+        "y": 2190,
+        "width": 2518,
+        "height": 215,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "\" the cost of preference shares. \"000000 \" it was",
+      "confidence": 0.494772,
+      "region": {
+        "index": 15,
+        "x": 158,
+        "y": 2325,
+        "width": 2132,
+        "height": 186,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "untifolent, petition to terms such",
+      "confidence": 0.274305,
+      "region": {
+        "index": 16,
+        "x": 1222,
+        "y": 2458,
+        "width": 1051,
+        "height": 151,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "framework good in",
+      "confidence": 0.347823,
+      "region": {
+        "index": 17,
+        "x": 126,
+        "y": 2465,
+        "width": 746,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "set,",
+      "confidence": 0.564099,
+      "region": {
+        "index": 18,
+        "x": 1,
+        "y": 2559,
+        "width": 155,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "# it? I have valued two, RN. 400 4/0Y. 7. 5.10",
+      "confidence": 0.324655,
+      "region": {
+        "index": 19,
+        "x": 58,
+        "y": 2559,
+        "width": 2224,
+        "height": 192,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "1",
+      "confidence": 0.707245,
+      "region": {
+        "index": 20,
+        "x": 1266,
+        "y": 2695,
+        "width": 42,
+        "height": 52,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "MP. 2100, NZ 10yrs.",
+      "confidence": 0.585851,
+      "region": {
+        "index": 21,
+        "x": 168,
+        "y": 2706,
+        "width": 940,
+        "height": 209,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "more-simple prior to trouble something since it, the",
+      "confidence": 0.59088,
+      "region": {
+        "index": 22,
+        "x": 273,
+        "y": 2841,
+        "width": 2234,
+        "height": 164,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "# the next two-nd tier-end round",
+      "confidence": 0.194812,
+      "region": {
+        "index": 23,
+        "x": 320,
+        "y": 2954,
+        "width": 1974,
+        "height": 212,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "\" Oh I'm I'm going into",
+      "confidence": 0.15844,
+      "region": {
+        "index": 24,
+        "x": 370,
+        "y": 3077,
+        "width": 1900,
+        "height": 192,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "- 9.500jo.",
+      "confidence": 0.53655,
+      "region": {
+        "index": 25,
+        "x": 714,
+        "y": 3212,
+        "width": 388,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0031/line_026.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 26
+}

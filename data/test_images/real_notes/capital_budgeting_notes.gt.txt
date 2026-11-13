@@ -1,0 +1,24 @@
+Unit - II
+Capital budgeting is connected to the long term inves-
+-tment decision with primary focus on the objective of
+maximizing bonus wealth. The features of capital
+budgeting include large anticipated benifits on inves-
+-tment, high degree of risk, long time period b/w. initial
+outlay (expenditure) & anticipated returns / benifits.
+The benifits are expected to occur over series of yrs.
+Types of investment decisions can be categorized under
+capital budgeting are :
+a. Expansion & diverification
+b. Replacement & Modernization
+c. Mutually exclusive investments
+d. Independent investments
+e. Contingent investments
+Traditional / Non - discounted methods
+1. Payback period methods
+Payback period is the exact time required to
+recover the initial investment in a project.
+Payback period = Initial Investment / Annual cash inflows = I / A
+2. Discounted Payback period
+No. of years in recovering a cash outlay or initial
+investment on the present value basis.
+= Initial Investment / Discounted present payback value of annual cash flows.

@@ -1,0 +1,475 @@
+{
+  "source_image": "page_0039.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 33,
+  "elapsed_seconds": 126.44,
+  "text": "page\nERS-Net-ex-thing S.42. Tobacco. 12250.000.\nNo. of shares. \" 8000000\n0 0\nfor new shareholderists.\na b. he dual attitude to a neither-mit, Belgium...\nMr. West of Lequity, RE. \" 50, \" upon-25.2 -\na. 200\ncompanies in the hostilities to conduct a wide number to know and\ncast of metrained warnings, and, which will be able\na small settlementchildren not in his Mr. Institute\nHawkheed RAINS TIM-BIX1002 and DOS 2 inaccida\nisurgical\nwhere, To Takemate # I am.00020001000200006000\nB.S.brokage charges, 2000,000,000.000,00000\nto find the situation into the Elizabethan\n'np\nimp\nHighest to reach 1. \" Delifreuvement. I'll should be second\nand of\nextending\neconomic\nA cost of equity of a company is 15.2. Taste of shareholder\nmers is toxic expenses in form of admission is 396.\ncirculate the cost of retained earnings.\naddress I pharmaceutical\n0)\n# the # K.S. \" T. 400 to job-3/ to\nnuclear telecom.000\nMR. KE.I-TJ.I.B.X.D.S.C.C02000\ntheir significance since 2000\n0-87.8x100.\n2 References",
+  "lines": [
+    {
+      "line": 1,
+      "text": "page",
+      "confidence": 0.858776,
+      "region": {
+        "index": 0,
+        "x": 1959,
+        "y": 10,
+        "width": 108,
+        "height": 62,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "ERS-Net-ex-thing S.42. Tobacco. 12250.000.",
+      "confidence": 0.309074,
+      "region": {
+        "index": 1,
+        "x": 276,
+        "y": 100,
+        "width": 1824,
+        "height": 181,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "No. of shares. \" 8000000",
+      "confidence": 0.748625,
+      "region": {
+        "index": 2,
+        "x": 502,
+        "y": 231,
+        "width": 1035,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "0 0",
+      "confidence": 0.495257,
+      "region": {
+        "index": 3,
+        "x": 719,
+        "y": 410,
+        "width": 32,
+        "height": 28,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "for new shareholderists.",
+      "confidence": 0.687135,
+      "region": {
+        "index": 4,
+        "x": 250,
+        "y": 483,
+        "width": 899,
+        "height": 144,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "a b. he dual attitude to a neither-mit, Belgium...",
+      "confidence": 0.309891,
+      "region": {
+        "index": 5,
+        "x": 274,
+        "y": 608,
+        "width": 1886,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "Mr. West of Lequity, RE. \" 50, \" upon-25.2 -",
+      "confidence": 0.31187,
+      "region": {
+        "index": 6,
+        "x": 127,
+        "y": 712,
+        "width": 1932,
+        "height": 214,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "a. 200",
+      "confidence": 0.318053,
+      "region": {
+        "index": 7,
+        "x": 1036,
+        "y": 845,
+        "width": 171,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "companies in the hostilities to conduct a wide number to know and",
+      "confidence": 0.372598,
+      "region": {
+        "index": 8,
+        "x": 241,
+        "y": 970,
+        "width": 1969,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "cast of metrained warnings, and, which will be able",
+      "confidence": 0.594459,
+      "region": {
+        "index": 9,
+        "x": 247,
+        "y": 1084,
+        "width": 1954,
+        "height": 178,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "a small settlementchildren not in his Mr. Institute",
+      "confidence": 0.368968,
+      "region": {
+        "index": 10,
+        "x": 411,
+        "y": 1222,
+        "width": 1777,
+        "height": 114,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "Hawkheed RAINS TIM-BIX1002 and DOS 2 inaccida",
+      "confidence": 0.30202,
+      "region": {
+        "index": 11,
+        "x": 245,
+        "y": 1312,
+        "width": 1947,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "isurgical",
+      "confidence": 0.284134,
+      "region": {
+        "index": 12,
+        "x": 1799,
+        "y": 1443,
+        "width": 392,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "where, To Takemate # I am.00020001000200006000",
+      "confidence": 0.342457,
+      "region": {
+        "index": 13,
+        "x": 251,
+        "y": 1559,
+        "width": 2093,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "B.S.brokage charges, 2000,000,000.000,00000",
+      "confidence": 0.53421,
+      "region": {
+        "index": 14,
+        "x": 549,
+        "y": 1674,
+        "width": 1648,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "to find the situation into the Elizabethan",
+      "confidence": 0.254918,
+      "region": {
+        "index": 15,
+        "x": 385,
+        "y": 1793,
+        "width": 1807,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "'np",
+      "confidence": 0.494405,
+      "region": {
+        "index": 16,
+        "x": 558,
+        "y": 1919,
+        "width": 143,
+        "height": 118,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "imp",
+      "confidence": 0.767615,
+      "region": {
+        "index": 17,
+        "x": 1631,
+        "y": 1918,
+        "width": 146,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "Highest to reach 1. \" Delifreuvement. I'll should be second",
+      "confidence": 0.365836,
+      "region": {
+        "index": 18,
+        "x": 233,
+        "y": 2029,
+        "width": 1953,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "and of",
+      "confidence": 0.46173,
+      "region": {
+        "index": 19,
+        "x": 373,
+        "y": 2169,
+        "width": 139,
+        "height": 103,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "extending",
+      "confidence": 0.301655,
+      "region": {
+        "index": 20,
+        "x": 1843,
+        "y": 2176,
+        "width": 232,
+        "height": 107,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "economic",
+      "confidence": 0.35014,
+      "region": {
+        "index": 21,
+        "x": 1050,
+        "y": 2171,
+        "width": 294,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "A cost of equity of a company is 15.2. Taste of shareholder",
+      "confidence": 0.655242,
+      "region": {
+        "index": 22,
+        "x": 99,
+        "y": 2266,
+        "width": 2461,
+        "height": 183,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "mers is toxic expenses in form of admission is 396.",
+      "confidence": 0.683439,
+      "region": {
+        "index": 23,
+        "x": 238,
+        "y": 2383,
+        "width": 2126,
+        "height": 182,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "circulate the cost of retained earnings.",
+      "confidence": 0.820915,
+      "region": {
+        "index": 24,
+        "x": 261,
+        "y": 2506,
+        "width": 1664,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "address I pharmaceutical",
+      "confidence": 0.219007,
+      "region": {
+        "index": 25,
+        "x": 1068,
+        "y": 2631,
+        "width": 1099,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "0)",
+      "confidence": 0.41652,
+      "region": {
+        "index": 26,
+        "x": 400,
+        "y": 2649,
+        "width": 120,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "# the # K.S. \" T. 400 to job-3/ to",
+      "confidence": 0.28377,
+      "region": {
+        "index": 27,
+        "x": 34,
+        "y": 2722,
+        "width": 1392,
+        "height": 213,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "nuclear telecom.000",
+      "confidence": 0.412095,
+      "region": {
+        "index": 28,
+        "x": 1521,
+        "y": 2878,
+        "width": 664,
+        "height": 126,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "MR. KE.I-TJ.I.B.X.D.S.C.C02000",
+      "confidence": 0.440643,
+      "region": {
+        "index": 29,
+        "x": 368,
+        "y": 2976,
+        "width": 1863,
+        "height": 203,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "their significance since 2000",
+      "confidence": 0.365381,
+      "region": {
+        "index": 30,
+        "x": 568,
+        "y": 3098,
+        "width": 1513,
+        "height": 186,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "0-87.8x100.",
+      "confidence": 0.736493,
+      "region": {
+        "index": 31,
+        "x": 670,
+        "y": 3232,
+        "width": 450,
+        "height": 173,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "2 References",
+      "confidence": 0.645559,
+      "region": {
+        "index": 32,
+        "x": 650,
+        "y": 3348,
+        "width": 357,
+        "height": 175,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0039/line_033.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 33
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "file": "01_line_printed_01.png",
+    "expected": "Efficient Text Recognition",
+    "note": "Single printed line."
+  },
+  {
+    "file": "01_line_printed_02.png",
+    "expected": "Deep Learning",
+    "note": "Single printed line."
+  },
+  {
+    "file": "02_line_script_01.png",
+    "expected": "Self Supervised Learning",
+    "note": "Single line in a handwriting typeface."
+  },
+  {
+    "file": "01_line_printed_03.png",
+    "expected": "Invoice Total 1,250.00",
+    "note": "Single printed line."
+  },
+  {
+    "file": "01_line_printed_04.png",
+    "expected": "INV-44718",
+    "note": "Single printed line."
+  },
+  {
+    "file": "02_line_script_02.png",
+    "expected": "handwritten sample text",
+    "note": "Single line in a handwriting typeface."
+  },
+  {
+    "file": "02_line_script_03.png",
+    "expected": "22 Mar 2026",
+    "note": "Single line in a handwriting typeface."
+  },
+  {
+    "file": "01_line_printed_05.png",
+    "expected": "Department of ISE",
+    "note": "Single printed line."
+  },
+  {
+    "file": "02_line_handwritten_01.png",
+    "expected": "ENZO",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_02.png",
+    "expected": "LEANNE",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_03.png",
+    "expected": "MEGUEDDEM",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_04.png",
+    "expected": "EYRAUD",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_05.png",
+    "expected": "SAN",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_06.png",
+    "expected": "LINA",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_07.png",
+    "expected": "LEANE",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "02_line_handwritten_08.png",
+    "expected": "YOLLODO",
+    "note": "Real handwriting (Kaggle). See the caveats below the table."
+  },
+  {
+    "file": "03_page_clean_01.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Cleanly rendered page."
+  },
+  {
+    "file": "04_page_scan_01.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Lightly skewed and noisy, like a flatbed scan."
+  },
+  {
+    "file": "05_page_photo_01.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Rotated with uneven lighting, like a phone photo."
+  },
+  {
+    "file": "03_page_clean_02.png",
+    "expected": "Department of Information Science and Engineering\nMajor Project Synopsis\nEfficient Text Recognition from Images Using Deep\nLearning and Self Supervised Learning\nProject Code: 42\nGuide: Dr Rashmi Naveen\nSubmitted on 30 October 2026",
+    "note": "Cleanly rendered page."
+  },
+  {
+    "file": "04_page_scan_02.png",
+    "expected": "Department of Information Science and Engineering\nMajor Project Synopsis\nEfficient Text Recognition from Images Using Deep\nLearning and Self Supervised Learning\nProject Code: 42\nGuide: Dr Rashmi Naveen\nSubmitted on 30 October 2026",
+    "note": "Lightly skewed and noisy, like a flatbed scan."
+  },
+  {
+    "file": "05_page_photo_02.png",
+    "expected": "Department of Information Science and Engineering\nMajor Project Synopsis\nEfficient Text Recognition from Images Using Deep\nLearning and Self Supervised Learning\nProject Code: 42\nGuide: Dr Rashmi Naveen\nSubmitted on 30 October 2026",
+    "note": "Rotated with uneven lighting, like a phone photo."
+  },
+  {
+    "file": "03_page_clean_03.png",
+    "expected": "Text recognition from images is a fundamental problem\nin computer vision and pattern recognition, playing a\nvital role in applications such as document\ndigitization and automatic form processing.\nTraditional OCR systems rely on handcrafted features\nand rule based techniques, which often fail when\ndealing with noisy images or handwritten text.",
+    "note": "Cleanly rendered page."
+  },
+  {
+    "file": "04_page_scan_03.png",
+    "expected": "Text recognition from images is a fundamental problem\nin computer vision and pattern recognition, playing a\nvital role in applications such as document\ndigitization and automatic form processing.\nTraditional OCR systems rely on handcrafted features\nand rule based techniques, which often fail when\ndealing with noisy images or handwritten text.",
+    "note": "Lightly skewed and noisy, like a flatbed scan."
+  },
+  {
+    "file": "05_page_photo_03.png",
+    "expected": "Text recognition from images is a fundamental problem\nin computer vision and pattern recognition, playing a\nvital role in applications such as document\ndigitization and automatic form processing.\nTraditional OCR systems rely on handcrafted features\nand rule based techniques, which often fail when\ndealing with noisy images or handwritten text.",
+    "note": "Rotated with uneven lighting, like a phone photo."
+  },
+  {
+    "file": "06_hard_low_contrast.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Very faint. Try Enhance contrast (CLAHE)."
+  },
+  {
+    "file": "06_hard_skewed.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Rotated 8 degrees. Deskew must be on."
+  },
+  {
+    "file": "06_hard_inverted.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "White text on black. Polarity is normalised automatically."
+  },
+  {
+    "file": "06_hard_blurred.png",
+    "expected": "INVOICE\nAcme Corporation Limited\n42 Industrial Estate, Mangalore 575001\nInvoice No: INV-44718\nDate: 22 March 2026\nLaptop stand 51.25\nUSB-C cable 18.00\nWireless keyboard 42.50\nSubtotal 111.75\nTax at 18% 20.12\nTotal 131.87",
+    "note": "Out of focus and noisy. Expect errors here."
+  }
+]

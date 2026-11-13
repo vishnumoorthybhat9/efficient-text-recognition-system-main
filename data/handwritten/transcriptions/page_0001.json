@@ -1,0 +1,503 @@
+{
+  "source_image": "page_0001.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 35,
+  "elapsed_seconds": 85.85,
+  "text": "date\npage.\n\" Unit -TT.\n(Capital budgeting is connected to the long term-irves -\n\" threat, decisions with primary tasks on the objective of\n\" maximizing rooms wealth. The features of capital\nindgeding include large anticipated benefits on inner\n1952 53\n\" out, any temperament is anticipated reviews, permits.\nThe benefits are expected to own ever series of us.\n\" Types of investment decisions can be categorized under\ncidental budgetting care......\n# Expansion and Administration.000\n6 If replacement # no demization\ncoff mutually, exclusive investments...\noff independent investments\neff contingent investments.\nill\ndopping\n(Traditional 1 non-discounted methods\nsupport.\n\" If pay back period methods...\nPaulback period is the exact time required to\nI recover the initial investment in a project\nplayback period-initial investment... I\n\" I Annual cash-informed I. A\na. Dismounted Payback period.\n\" No. of years, in \" recovering a cash outlaw on initial\n\" investment on the present machine basis\nthe film\n- Initial investment.\n1961- Recommended present payback machine of\n0000 01 Pennsylvania Democrats.\nManagement and #\nspring the bathroom moved well.",
+  "lines": [
+    {
+      "line": 1,
+      "text": "date",
+      "confidence": 0.973291,
+      "region": {
+        "index": 0,
+        "x": 1828,
+        "y": 2,
+        "width": 88,
+        "height": 44,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "page.",
+      "confidence": 0.975827,
+      "region": {
+        "index": 1,
+        "x": 1813,
+        "y": 35,
+        "width": 114,
+        "height": 81,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "\" Unit -TT.",
+      "confidence": 0.430614,
+      "region": {
+        "index": 2,
+        "x": 970,
+        "y": 206,
+        "width": 361,
+        "height": 159,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "(Capital budgeting is connected to the long term-irves -",
+      "confidence": 0.763477,
+      "region": {
+        "index": 3,
+        "x": 277,
+        "y": 295,
+        "width": 2020,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "\" threat, decisions with primary tasks on the objective of",
+      "confidence": 0.789514,
+      "region": {
+        "index": 4,
+        "x": 284,
+        "y": 398,
+        "width": 1992,
+        "height": 155,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "\" maximizing rooms wealth. The features of capital",
+      "confidence": 0.641761,
+      "region": {
+        "index": 5,
+        "x": 263,
+        "y": 487,
+        "width": 1857,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "indgeding include large anticipated benefits on inner",
+      "confidence": 0.64662,
+      "region": {
+        "index": 6,
+        "x": 275,
+        "y": 581,
+        "width": 2009,
+        "height": 180,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "1952 53",
+      "confidence": 0.227819,
+      "region": {
+        "index": 7,
+        "x": 276,
+        "y": 659,
+        "width": 2081,
+        "height": 208,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "\" out, any temperament is anticipated reviews, permits.",
+      "confidence": 0.462631,
+      "region": {
+        "index": 8,
+        "x": 257,
+        "y": 780,
+        "width": 1961,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "The benefits are expected to own ever series of us.",
+      "confidence": 0.740252,
+      "region": {
+        "index": 9,
+        "x": 384,
+        "y": 889,
+        "width": 1865,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "\" Types of investment decisions can be categorized under",
+      "confidence": 0.915992,
+      "region": {
+        "index": 10,
+        "x": 244,
+        "y": 989,
+        "width": 2050,
+        "height": 175,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "cidental budgetting care......",
+      "confidence": 0.373309,
+      "region": {
+        "index": 11,
+        "x": 286,
+        "y": 1108,
+        "width": 1254,
+        "height": 133,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "# Expansion and Administration.000",
+      "confidence": 0.449791,
+      "region": {
+        "index": 12,
+        "x": 154,
+        "y": 1197,
+        "width": 1356,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "6 If replacement # no demization",
+      "confidence": 0.469996,
+      "region": {
+        "index": 13,
+        "x": 162,
+        "y": 1305,
+        "width": 1222,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "coff mutually, exclusive investments...",
+      "confidence": 0.617257,
+      "region": {
+        "index": 14,
+        "x": 154,
+        "y": 1411,
+        "width": 1326,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "off independent investments",
+      "confidence": 0.679027,
+      "region": {
+        "index": 15,
+        "x": 155,
+        "y": 1507,
+        "width": 1004,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "eff contingent investments.",
+      "confidence": 0.702726,
+      "region": {
+        "index": 16,
+        "x": 147,
+        "y": 1607,
+        "width": 968,
+        "height": 163,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "ill",
+      "confidence": 0.917721,
+      "region": {
+        "index": 17,
+        "x": 233,
+        "y": 1719,
+        "width": 29,
+        "height": 28,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "dopping",
+      "confidence": 0.435902,
+      "region": {
+        "index": 18,
+        "x": 1702,
+        "y": 1723,
+        "width": 318,
+        "height": 115,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "(Traditional 1 non-discounted methods",
+      "confidence": 0.826477,
+      "region": {
+        "index": 19,
+        "x": 244,
+        "y": 1811,
+        "width": 1419,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "support.",
+      "confidence": 0.461196,
+      "region": {
+        "index": 20,
+        "x": 444,
+        "y": 1944,
+        "width": 160,
+        "height": 90,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "\" If pay back period methods...",
+      "confidence": 0.663988,
+      "region": {
+        "index": 21,
+        "x": 152,
+        "y": 2025,
+        "width": 1500,
+        "height": 143,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "Paulback period is the exact time required to",
+      "confidence": 0.819156,
+      "region": {
+        "index": 22,
+        "x": 428,
+        "y": 2120,
+        "width": 1682,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "I recover the initial investment in a project",
+      "confidence": 0.92834,
+      "region": {
+        "index": 23,
+        "x": 233,
+        "y": 2224,
+        "width": 1681,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "playback period-initial investment... I",
+      "confidence": 0.801792,
+      "region": {
+        "index": 24,
+        "x": 523,
+        "y": 2436,
+        "width": 1721,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "\" I Annual cash-informed I. A",
+      "confidence": 0.539458,
+      "region": {
+        "index": 25,
+        "x": 936,
+        "y": 2536,
+        "width": 1304,
+        "height": 138,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "a. Dismounted Payback period.",
+      "confidence": 0.800216,
+      "region": {
+        "index": 26,
+        "x": 126,
+        "y": 2751,
+        "width": 1095,
+        "height": 176,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "\" No. of years, in \" recovering a cash outlaw on initial",
+      "confidence": 0.694322,
+      "region": {
+        "index": 27,
+        "x": 394,
+        "y": 2864,
+        "width": 1923,
+        "height": 156,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "\" investment on the present machine basis",
+      "confidence": 0.81061,
+      "region": {
+        "index": 28,
+        "x": 201,
+        "y": 2955,
+        "width": 1446,
+        "height": 163,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "the film",
+      "confidence": 0.243998,
+      "region": {
+        "index": 29,
+        "x": 1729,
+        "y": 3100,
+        "width": 308,
+        "height": 105,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "- Initial investment.",
+      "confidence": 0.67125,
+      "region": {
+        "index": 30,
+        "x": 831,
+        "y": 3175,
+        "width": 773,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "1961- Recommended present payback machine of",
+      "confidence": 0.326645,
+      "region": {
+        "index": 31,
+        "x": 363,
+        "y": 3268,
+        "width": 1919,
+        "height": 197,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "0000 01 Pennsylvania Democrats.",
+      "confidence": 0.215277,
+      "region": {
+        "index": 32,
+        "x": 426,
+        "y": 3397,
+        "width": 1236,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "Management and #",
+      "confidence": 0.155721,
+      "region": {
+        "index": 33,
+        "x": 287,
+        "y": 3612,
+        "width": 489,
+        "height": 117,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "spring the bathroom moved well.",
+      "confidence": 0.401825,
+      "region": {
+        "index": 34,
+        "x": 1170,
+        "y": 3636,
+        "width": 880,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0001/line_035.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 35
+}

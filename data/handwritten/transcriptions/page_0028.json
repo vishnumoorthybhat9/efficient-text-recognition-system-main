@@ -1,0 +1,433 @@
+{
+  "source_image": "page_0028.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 30,
+  "elapsed_seconds": 81.37,
+  "text": "most of ahedeemable Debt Capital.\nWest Coast\na b. DOUNCILTONY OF THE COUNCILLY\ncommon actor began its return to the first ever ever ever than the\n\" Former of the Fidelity Amendment of America\nwhere, Rd. cost of debt capital, RV. Redemption, online\nthe Net-week, is number of units to redemption.\na. A firm issues have debentures of face value #000 for\n# a second with a meeting that does not be on the place, value\nthe adventures are neededemaking at a premium of 10/ after\n\" What could be able to be able into the\n2'\nsbolk calculator NPC. 1) 2/ 1.2,00030005000-\n\" Face. noathe -ENDO (Grinoem)\nFloating charges-100 X 5/6-95\n\" MP 2\" 100-5. \" - 95\ncalculate RV.\nRedemption premium # 100.2120,\n\" \" I... Rev. \" 100 times. no\nletterly of\n\" Calculate annual interest\nI-100xia.a.a\nin. April 1951-With the CAV. notebook\nBRV.NP 1/2.\npublic-peace discrimination\n(1104,0591,A.\n7.5\n10a. 5\n0/000732\n- 7.30.",
+  "lines": [
+    {
+      "line": 1,
+      "text": "most of ahedeemable Debt Capital.",
+      "confidence": 0.58046,
+      "region": {
+        "index": 0,
+        "x": 206,
+        "y": 73,
+        "width": 1176,
+        "height": 181,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "West Coast",
+      "confidence": 0.264149,
+      "region": {
+        "index": 1,
+        "x": 1616,
+        "y": 201,
+        "width": 275,
+        "height": 63,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "a b. DOUNCILTONY OF THE COUNCILLY",
+      "confidence": 0.215941,
+      "region": {
+        "index": 2,
+        "x": 440,
+        "y": 237,
+        "width": 607,
+        "height": 85,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "common actor began its return to the first ever ever ever than the",
+      "confidence": 0.248671,
+      "region": {
+        "index": 3,
+        "x": 71,
+        "y": 285,
+        "width": 1815,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "\" Former of the Fidelity Amendment of America",
+      "confidence": 0.246582,
+      "region": {
+        "index": 4,
+        "x": 207,
+        "y": 406,
+        "width": 1535,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "where, Rd. cost of debt capital, RV. Redemption, online",
+      "confidence": 0.750324,
+      "region": {
+        "index": 5,
+        "x": 213,
+        "y": 598,
+        "width": 2086,
+        "height": 193,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "the Net-week, is number of units to redemption.",
+      "confidence": 0.438951,
+      "region": {
+        "index": 6,
+        "x": 502,
+        "y": 686,
+        "width": 1850,
+        "height": 193,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "a. A firm issues have debentures of face value #000 for",
+      "confidence": 0.662274,
+      "region": {
+        "index": 7,
+        "x": 101,
+        "y": 897,
+        "width": 2149,
+        "height": 218,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "# a second with a meeting that does not be on the place, value",
+      "confidence": 0.469005,
+      "region": {
+        "index": 8,
+        "x": 209,
+        "y": 1019,
+        "width": 2143,
+        "height": 201,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "the adventures are neededemaking at a premium of 10/ after",
+      "confidence": 0.601347,
+      "region": {
+        "index": 9,
+        "x": 221,
+        "y": 1129,
+        "width": 2131,
+        "height": 175,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "\" What could be able to be able into the",
+      "confidence": 0.259623,
+      "region": {
+        "index": 10,
+        "x": 221,
+        "y": 1222,
+        "width": 2131,
+        "height": 205,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "2'",
+      "confidence": 0.384241,
+      "region": {
+        "index": 11,
+        "x": 800,
+        "y": 1412,
+        "width": 77,
+        "height": 63,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "sbolk calculator NPC. 1) 2/ 1.2,00030005000-",
+      "confidence": 0.212694,
+      "region": {
+        "index": 12,
+        "x": 76,
+        "y": 1487,
+        "width": 1651,
+        "height": 123,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "\" Face. noathe -ENDO (Grinoem)",
+      "confidence": 0.543231,
+      "region": {
+        "index": 13,
+        "x": 167,
+        "y": 1580,
+        "width": 975,
+        "height": 133,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "Floating charges-100 X 5/6-95",
+      "confidence": 0.689963,
+      "region": {
+        "index": 14,
+        "x": 230,
+        "y": 1681,
+        "width": 1169,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "\" MP 2\" 100-5. \" - 95",
+      "confidence": 0.618239,
+      "region": {
+        "index": 15,
+        "x": 264,
+        "y": 1797,
+        "width": 721,
+        "height": 128,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "calculate RV.",
+      "confidence": 0.969209,
+      "region": {
+        "index": 16,
+        "x": 215,
+        "y": 1998,
+        "width": 509,
+        "height": 125,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "Redemption premium # 100.2120,",
+      "confidence": 0.357217,
+      "region": {
+        "index": 17,
+        "x": 230,
+        "y": 2102,
+        "width": 1471,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "\" \" I... Rev. \" 100 times. no",
+      "confidence": 0.411514,
+      "region": {
+        "index": 18,
+        "x": 41,
+        "y": 2193,
+        "width": 880,
+        "height": 134,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "letterly of",
+      "confidence": 0.3099,
+      "region": {
+        "index": 19,
+        "x": 1396,
+        "y": 2344,
+        "width": 279,
+        "height": 63,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "\" Calculate annual interest",
+      "confidence": 0.796081,
+      "region": {
+        "index": 20,
+        "x": 195,
+        "y": 2403,
+        "width": 888,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "I-100xia.a.a",
+      "confidence": 0.455326,
+      "region": {
+        "index": 21,
+        "x": 231,
+        "y": 2502,
+        "width": 727,
+        "height": 157,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "in. April 1951-With the CAV. notebook",
+      "confidence": 0.248753,
+      "region": {
+        "index": 22,
+        "x": 236,
+        "y": 2724,
+        "width": 1395,
+        "height": 179,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "BRV.NP 1/2.",
+      "confidence": 0.62972,
+      "region": {
+        "index": 23,
+        "x": 780,
+        "y": 2831,
+        "width": 519,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "public-peace discrimination",
+      "confidence": 0.143704,
+      "region": {
+        "index": 24,
+        "x": 160,
+        "y": 2919,
+        "width": 1547,
+        "height": 195,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "(1104,0591,A.",
+      "confidence": 0.364037,
+      "region": {
+        "index": 25,
+        "x": 840,
+        "y": 3033,
+        "width": 492,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "7.5",
+      "confidence": 0.881647,
+      "region": {
+        "index": 26,
+        "x": 648,
+        "y": 3158,
+        "width": 169,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "10a. 5",
+      "confidence": 0.692344,
+      "region": {
+        "index": 27,
+        "x": 654,
+        "y": 3271,
+        "width": 220,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "0/000732",
+      "confidence": 0.555408,
+      "region": {
+        "index": 28,
+        "x": 575,
+        "y": 3390,
+        "width": 386,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "- 7.30.",
+      "confidence": 0.426873,
+      "region": {
+        "index": 29,
+        "x": 605,
+        "y": 3490,
+        "width": 326,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0028/line_030.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 30
+}

@@ -1,0 +1,33 @@
+# ===========================================================================
+# CNN model, final version: more data and a longer schedule.
+#
+# Same architecture and recipe as crnn_full.yaml, with these changes:
+#  * data: synthetic + Kaggle handwriting + IAM handwritten sentence lines
+#    (data/processed/combined_iam, built by scripts/prepare_iam_hf.py)
+#  * 30 epochs instead of 18 -- the 18-epoch run was still improving when its
+#    cosine schedule ended (val CER 0.0974 -> 0.0958 over the last three).
+#  * scratch initialization: this standalone training workflow has no SimCLR
+#    pretraining stage/checkpoint.
+#
+#   python scripts/train_crnn.py --config configs/experiments/crnn_full_v2.yaml
+# ===========================================================================
+extends: crnn_full.yaml
+
+name: crnn_full_v2
+
+data:
+  train_manifest: data/processed/combined_iam/train.tsv
+  val_manifest: data/processed/combined_iam/val.tsv
+  test_manifest: data/processed/combined_iam/test.tsv
+
+model:
+  # This standalone full-data workflow does not run SimCLR pretraining first.
+  # Train the production recognizer from scratch instead of requiring a
+  # checkpoint that this workflow never produces.
+  init_encoder_from: null
+  freeze_encoder_epochs: 0
+
+train:
+  epochs: 30
+  early_stopping_patience: 6
+  checkpoint_dir: artifacts/checkpoints/crnn_full_v2

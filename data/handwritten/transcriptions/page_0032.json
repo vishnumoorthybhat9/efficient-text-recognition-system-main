@@ -1,0 +1,573 @@
+{
+  "source_image": "page_0032.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 40,
+  "elapsed_seconds": 136.38,
+  "text": "0 1\nZemann's wife to succeed that\na. A company issues 8000,896 preference shares of 2,100\nleach. ' Most of each # a per-share. Calculate the cost of\n\" preference share capital if these shares are issued at\nwill pair... to provide\nwill premium of 6.7.\nGwillthocourt of St. 1, The National Register now\nBasic # personnel\n40EL\nd\"000x8.V.-38 Until October 1,000000 and\nRev. Woolwich Avenue.000.000.2.0002000200002000220002\n20 0\nalso I accept\ndiffressed at part... of 1 -0000008\nup-iodicates 200,000\nI am added shares,\nNP. 918X A0000-E196000\nsett it point alone employers it had guineaflat soft and a\nIRVFL 110.X.200000. FM. 200,000-minning is the contestants\nthe heir 1830selected his private father's\nRep. 1600000. PUBLIC. 200000-196.000) X100.000\n\" Varaandono ((RAB000)\n# not yet the days \" but still be visible did\ndebank to produce\ngood of a total) event needed\nissued at a premium of Mr. No. Canada commercial\n1\nissue price per share:\nagreedia point,\n100 4106.END, announcement chairman\n(Net Proceeds, NPI-IID -A-108.\nFor 2000 shares,000 000 accomplished establishments\nthe Baltimore-108X200000. Ea16000. We'd do\n000 0\nRV. 110X A0002 Za200000\n2\nRE-160000 # Y8(a00000-a.e000) x100\n\" YalaADDOOD tambodons\n- 7.57010",
+  "lines": [
+    {
+      "line": 1,
+      "text": "0 1",
+      "confidence": 0.515371,
+      "region": {
+        "index": 0,
+        "x": 1727,
+        "y": 103,
+        "width": 146,
+        "height": 75,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "Zemann's wife to succeed that",
+      "confidence": 0.127167,
+      "region": {
+        "index": 1,
+        "x": 949,
+        "y": 109,
+        "width": 365,
+        "height": 71,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "a. A company issues 8000,896 preference shares of 2,100",
+      "confidence": 0.671261,
+      "region": {
+        "index": 2,
+        "x": 185,
+        "y": 154,
+        "width": 2086,
+        "height": 211,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "leach. ' Most of each # a per-share. Calculate the cost of",
+      "confidence": 0.666976,
+      "region": {
+        "index": 3,
+        "x": 298,
+        "y": 286,
+        "width": 1924,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "\" preference share capital if these shares are issued at",
+      "confidence": 0.833127,
+      "region": {
+        "index": 4,
+        "x": 289,
+        "y": 394,
+        "width": 1991,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "will pair... to provide",
+      "confidence": 0.377647,
+      "region": {
+        "index": 5,
+        "x": 187,
+        "y": 521,
+        "width": 967,
+        "height": 155,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "will premium of 6.7.",
+      "confidence": 0.702277,
+      "region": {
+        "index": 6,
+        "x": 164,
+        "y": 615,
+        "width": 750,
+        "height": 163,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "Gwillthocourt of St. 1, The National Register now",
+      "confidence": 0.262944,
+      "region": {
+        "index": 7,
+        "x": 160,
+        "y": 728,
+        "width": 1951,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "Basic # personnel",
+      "confidence": 0.139799,
+      "region": {
+        "index": 8,
+        "x": 1355,
+        "y": 842,
+        "width": 676,
+        "height": 115,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "40EL",
+      "confidence": 0.342041,
+      "region": {
+        "index": 9,
+        "x": 469,
+        "y": 849,
+        "width": 245,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "d\"000x8.V.-38 Until October 1,000000 and",
+      "confidence": 0.33261,
+      "region": {
+        "index": 10,
+        "x": 307,
+        "y": 951,
+        "width": 1732,
+        "height": 128,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "Rev. Woolwich Avenue.000.000.2.0002000200002000220002",
+      "confidence": 0.28636,
+      "region": {
+        "index": 11,
+        "x": 314,
+        "y": 1040,
+        "width": 1745,
+        "height": 156,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "20 0",
+      "confidence": 0.654368,
+      "region": {
+        "index": 12,
+        "x": 499,
+        "y": 1184,
+        "width": 147,
+        "height": 75,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "also I accept",
+      "confidence": 0.428104,
+      "region": {
+        "index": 13,
+        "x": 1323,
+        "y": 1157,
+        "width": 691,
+        "height": 126,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "diffressed at part... of 1 -0000008",
+      "confidence": 0.472686,
+      "region": {
+        "index": 14,
+        "x": 165,
+        "y": 1256,
+        "width": 1874,
+        "height": 176,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "up-iodicates 200,000",
+      "confidence": 0.353493,
+      "region": {
+        "index": 15,
+        "x": 378,
+        "y": 1367,
+        "width": 1049,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "I am added shares,",
+      "confidence": 0.417724,
+      "region": {
+        "index": 16,
+        "x": 277,
+        "y": 1485,
+        "width": 1107,
+        "height": 143,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "NP. 918X A0000-E196000",
+      "confidence": 0.534564,
+      "region": {
+        "index": 17,
+        "x": 722,
+        "y": 1591,
+        "width": 981,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "sett it point alone employers it had guineaflat soft and a",
+      "confidence": 0.443524,
+      "region": {
+        "index": 18,
+        "x": 330,
+        "y": 1704,
+        "width": 1875,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "IRVFL 110.X.200000. FM. 200,000-minning is the contestants",
+      "confidence": 0.429154,
+      "region": {
+        "index": 19,
+        "x": 266,
+        "y": 1809,
+        "width": 1819,
+        "height": 143,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "the heir 1830selected his private father's",
+      "confidence": 0.240994,
+      "region": {
+        "index": 20,
+        "x": 437,
+        "y": 1913,
+        "width": 1653,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "Rep. 1600000. PUBLIC. 200000-196.000) X100.000",
+      "confidence": 0.466,
+      "region": {
+        "index": 21,
+        "x": 441,
+        "y": 2014,
+        "width": 1657,
+        "height": 193,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "\" Varaandono ((RAB000)",
+      "confidence": 0.322299,
+      "region": {
+        "index": 22,
+        "x": 762,
+        "y": 2133,
+        "width": 822,
+        "height": 151,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "# not yet the days \" but still be visible did",
+      "confidence": 0.245239,
+      "region": {
+        "index": 23,
+        "x": 245,
+        "y": 2236,
+        "width": 1088,
+        "height": 163,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "debank to produce",
+      "confidence": 0.415531,
+      "region": {
+        "index": 24,
+        "x": 1466,
+        "y": 2256,
+        "width": 642,
+        "height": 138,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "good of a total) event needed",
+      "confidence": 0.240765,
+      "region": {
+        "index": 25,
+        "x": 1012,
+        "y": 2363,
+        "width": 1083,
+        "height": 138,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "issued at a premium of Mr. No. Canada commercial",
+      "confidence": 0.653475,
+      "region": {
+        "index": 26,
+        "x": 272,
+        "y": 2467,
+        "width": 1836,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "1",
+      "confidence": 0.482376,
+      "region": {
+        "index": 27,
+        "x": 1018,
+        "y": 2603,
+        "width": 47,
+        "height": 54,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "issue price per share:",
+      "confidence": 0.912689,
+      "region": {
+        "index": 28,
+        "x": 294,
+        "y": 2579,
+        "width": 783,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "agreedia point,",
+      "confidence": 0.217151,
+      "region": {
+        "index": 29,
+        "x": 1544,
+        "y": 2594,
+        "width": 550,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "100 4106.END, announcement chairman",
+      "confidence": 0.437755,
+      "region": {
+        "index": 30,
+        "x": 741,
+        "y": 2683,
+        "width": 1369,
+        "height": 157,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "(Net Proceeds, NPI-IID -A-108.",
+      "confidence": 0.562592,
+      "region": {
+        "index": 31,
+        "x": 250,
+        "y": 2792,
+        "width": 1082,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "For 2000 shares,000 000 accomplished establishments",
+      "confidence": 0.346282,
+      "region": {
+        "index": 32,
+        "x": 260,
+        "y": 2929,
+        "width": 1864,
+        "height": 144,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "the Baltimore-108X200000. Ea16000. We'd do",
+      "confidence": 0.335711,
+      "region": {
+        "index": 33,
+        "x": 313,
+        "y": 3035,
+        "width": 1807,
+        "height": 158,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "000 0",
+      "confidence": 0.490724,
+      "region": {
+        "index": 34,
+        "x": 1798,
+        "y": 3191,
+        "width": 223,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "RV. 110X A0002 Za200000",
+      "confidence": 0.569613,
+      "region": {
+        "index": 35,
+        "x": 234,
+        "y": 3257,
+        "width": 1058,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_036.png"
+    },
+    {
+      "line": 37,
+      "text": "2",
+      "confidence": 0.266399,
+      "region": {
+        "index": 36,
+        "x": 1341,
+        "y": 3438,
+        "width": 112,
+        "height": 75,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_037.png"
+    },
+    {
+      "line": 38,
+      "text": "RE-160000 # Y8(a00000-a.e000) x100",
+      "confidence": 0.413404,
+      "region": {
+        "index": 37,
+        "x": 366,
+        "y": 3487,
+        "width": 1780,
+        "height": 233,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_038.png"
+    },
+    {
+      "line": 39,
+      "text": "\" YalaADDOOD tambodons",
+      "confidence": 0.322077,
+      "region": {
+        "index": 38,
+        "x": 860,
+        "y": 3616,
+        "width": 878,
+        "height": 174,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_039.png"
+    },
+    {
+      "line": 40,
+      "text": "- 7.57010",
+      "confidence": 0.560848,
+      "region": {
+        "index": 39,
+        "x": 548,
+        "y": 3714,
+        "width": 411,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0032/line_040.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 40
+}

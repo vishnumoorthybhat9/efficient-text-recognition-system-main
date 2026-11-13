@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model weights and training output
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+checkpoints/
+runs/
+wandb/
+lightning_logs/

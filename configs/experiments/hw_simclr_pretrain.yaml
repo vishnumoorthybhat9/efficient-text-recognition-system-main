@@ -1,0 +1,56 @@
+# ===========================================================================
+# REAL-DATA experiment, stage 1.
+#
+# SimCLR self-supervised pretraining on real handwritten images from the
+# Kaggle "Handwriting Recognition" dataset (photographed name fields).
+#
+#   python scripts/prepare_dataset.py --dataset handwriting \
+#       --source "<path>/archive.zip" --train 20000 --val 3000 --test 3000 \
+#       --unlabeled 30000
+#   python scripts/pretrain_simclr.py --config configs/experiments/hw_simclr_pretrain.yaml
+#
+# The unlabeled pool is drawn from training images that appear in NO labeled
+# split, so pretraining cannot have seen a validation or test image. Their
+# transcriptions exist but are never read.
+# ===========================================================================
+extends: default.yaml
+
+name: hw_simclr_pretrain
+
+data:
+  train_manifest: data/processed/handwriting/train.tsv
+  val_manifest: data/processed/handwriting/val.tsv
+  test_manifest: data/processed/handwriting/test.tsv
+  unlabeled_manifest: data/processed/handwriting/unlabeled.txt
+
+simclr:
+  temperature: 0.1
+  projection_dim: 128
+  views:
+    # Real scans already carry camera noise, uneven lighting and paper
+    # texture, so the synthetic-noise terms are eased off and the geometric
+    # terms raised: the useful invariance here is to handwriting slant and
+    # stroke weight, not to artificial JPEG artefacts.
+    brightness: 0.35
+    contrast: 0.35
+    gaussian_noise_std: 0.04
+    blur_max_sigma: 1.2
+    rotate_deg: 4.0
+    shear_deg: 8.0
+    scale_jitter: 0.14
+    translate_px: 3
+    erode_dilate: true
+    jpeg_quality_min: 45
+    width_crop_ratio: 0.88
+
+train:
+  epochs: 12
+  batch_size: 64
+  learning_rate: 0.001
+  weight_decay: 0.000001
+  scheduler: cosine
+  warmup_epochs: 1
+  monitor: train_loss
+  monitor_mode: min
+  early_stopping_patience: 10
+  checkpoint_dir: artifacts/checkpoints/hw_simclr_pretrain

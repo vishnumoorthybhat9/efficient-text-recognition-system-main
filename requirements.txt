@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# Efficient Text Recognition from Images Using Deep Learning and
+# Self-Supervised Learning  --  Python dependencies
+# ---------------------------------------------------------------------------
+# PyTorch is intentionally NOT pinned here because the correct wheel depends on
+# the host CUDA runtime.  Install it first, separately:
+#
+#   GPU (CUDA 12.8 wheels, works with driver >= 525):
+#     pip install --force-reinstall torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#
+#   CPU only:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+# Then:  pip install -r requirements.txt
+# ---------------------------------------------------------------------------
+
+# --- Web / API layer -------------------------------------------------------
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.8
+pydantic-settings>=2.4
+
+# --- Persistence -----------------------------------------------------------
+SQLAlchemy>=2.0
+
+# --- Scientific stack ------------------------------------------------------
+numpy>=2.0,<3
+pandas>=2.2
+opencv-python-headless>=4.10
+Pillow>=10.4
+PyMuPDF>=1.24
+
+# --- Visualisation ---------------------------------------------------------
+matplotlib>=3.9
+plotly>=5.23
+kaleido
+
+# --- Metrics (CER / WER) ---------------------------------------------------
+python-Levenshtein>=0.25
+jiwer>=3.0
+
+# --- Transformer OCR (TrOCR) ----------------------------------------------
+transformers>=4.44
+sentencepiece
+safetensors
+# protobuf is required to convert TrOCR's SentencePiece tokenizer on
+# transformers >= 5; without it the model fails to load.
+protobuf>=4.25
+
+# --- Handwritten documents (optional) --------------------------------------
+# docTR's DBNet text detector finds words on photographed handwritten pages far
+# more reliably than a projection profile. Optional: without it, handwritten
+# mode falls back to the project's own detector (ml/inference/handwriting.py).
+# The detector weights (~100 MB) download on first use.
+python-doctr>=0.10
+
+# --- Utilities -------------------------------------------------------------
+PyYAML>=6.0
+tqdm>=4.66
+psutil>=6.0
+
+# --- Testing ---------------------------------------------------------------
+pytest>=8.3
+pytest-asyncio>=0.24
+httpx>=0.27

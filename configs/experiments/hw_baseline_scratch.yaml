@@ -1,0 +1,43 @@
+# ===========================================================================
+# REAL-DATA experiment, stage 2a -- CONTROL arm.
+#
+# CNN + BiLSTM + Self-Attention + CTC trained from random initialisation on a
+# small labeled subset of real handwritten images.
+#
+#   python scripts/train_crnn.py --config configs/experiments/hw_baseline_scratch.yaml
+#
+# This file and hw_simclr_finetune.yaml differ in exactly one key:
+# `model.init_encoder_from`.
+# ===========================================================================
+extends: default.yaml
+
+name: hw_baseline_scratch
+
+data:
+  train_manifest: data/processed/handwriting/train.tsv
+  val_manifest: data/processed/handwriting/val.tsv
+  test_manifest: data/processed/handwriting/test.tsv
+  unlabeled_manifest: data/processed/handwriting/unlabeled.txt
+  # Low-label regime: 2,000 of the 19,992 available labeled samples (10%).
+  max_train_samples: 2000
+
+augment:
+  # Real handwriting already varies in slant and stroke weight, so the
+  # synthetic geometric jitter is reduced relative to the synthetic-data runs.
+  rotate_deg: 1.5
+  shear_deg: 3.0
+  scale_jitter: 0.06
+  gaussian_noise_std: 0.03
+  blur_max_sigma: 0.8
+
+model:
+  # Role in the controlled comparison; see docs/RESULTS.md.
+  experiment_arm: control
+  init_encoder_from: null   # <-- the only difference from the SimCLR arm
+
+train:
+  epochs: 30
+  batch_size: 32
+  learning_rate: 0.0008
+  seed: 42
+  checkpoint_dir: artifacts/checkpoints/hw_baseline_scratch

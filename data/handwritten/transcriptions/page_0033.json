@@ -1,0 +1,475 @@
+{
+  "source_image": "page_0033.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 33,
+  "elapsed_seconds": 141.69,
+  "text": "diff-isowed at a discount of 6/0\nIssue per share:\nNOOT G.VA. S.E.G.H.C.C02C. conc.pc.000 conc.\n\" Next proceeds, in P.A.A-A.E.A\nFmr.0000 shares\ncorrected here\nNP. 9AX 8000 0-EL8400000\n\" Jerry # and #\nto\nMr. PRODUCT (WELD 200000-IS 4000) x 100\nNavalgandino's shadow crisis\n\" 10.1500\ndifferential health\n0 0\n0 1.\nN.A company issues, 1976 preference shares of face value\nFID each, redeemable after 9 years. The total number of\nshares issued is 5000. The preference shares are to be\nredefined at a 207-Premium. The cost of issue of shares\nis 30 prize per share (complete the cost of preference\nshameriapital.\n# not likely in U.S. The President's long grandparents. A\nstrongsies (100after-Hannings still. Latin-just-things are\ngot.\nRVA in Arizona Valley Arkansas advertised in AP\nappropriate team softball\nerla\nMP. 10-O.50. 79.50, via.\n900\nAPPLICATION GENERAL ASSEMBLY\n\" Yarrisay,\nso-01aal\n2 1a.aiolo",
+  "lines": [
+    {
+      "line": 1,
+      "text": "diff-isowed at a discount of 6/0",
+      "confidence": 0.709002,
+      "region": {
+        "index": 0,
+        "x": 140,
+        "y": 52,
+        "width": 1102,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "Issue per share:",
+      "confidence": 0.684716,
+      "region": {
+        "index": 1,
+        "x": 260,
+        "y": 179,
+        "width": 642,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "NOOT G.VA. S.E.G.H.C.C02C. conc.pc.000 conc.",
+      "confidence": 0.464342,
+      "region": {
+        "index": 2,
+        "x": 742,
+        "y": 296,
+        "width": 1374,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "\" Next proceeds, in P.A.A-A.E.A",
+      "confidence": 0.549142,
+      "region": {
+        "index": 3,
+        "x": 228,
+        "y": 381,
+        "width": 1210,
+        "height": 160,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "Fmr.0000 shares",
+      "confidence": 0.589796,
+      "region": {
+        "index": 4,
+        "x": 244,
+        "y": 496,
+        "width": 674,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "corrected here",
+      "confidence": 0.291916,
+      "region": {
+        "index": 5,
+        "x": 1772,
+        "y": 516,
+        "width": 343,
+        "height": 103,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "NP. 9AX 8000 0-EL8400000",
+      "confidence": 0.586407,
+      "region": {
+        "index": 6,
+        "x": 709,
+        "y": 613,
+        "width": 1071,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "\" Jerry # and #",
+      "confidence": 0.42107,
+      "region": {
+        "index": 7,
+        "x": 168,
+        "y": 711,
+        "width": 620,
+        "height": 128,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "to",
+      "confidence": 0.224163,
+      "region": {
+        "index": 8,
+        "x": 1442,
+        "y": 843,
+        "width": 138,
+        "height": 102,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "Mr. PRODUCT (WELD 200000-IS 4000) x 100",
+      "confidence": 0.482302,
+      "region": {
+        "index": 9,
+        "x": 339,
+        "y": 921,
+        "width": 1776,
+        "height": 180,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "Navalgandino's shadow crisis",
+      "confidence": 0.211184,
+      "region": {
+        "index": 10,
+        "x": 689,
+        "y": 1041,
+        "width": 1448,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "\" 10.1500",
+      "confidence": 0.676868,
+      "region": {
+        "index": 11,
+        "x": 514,
+        "y": 1146,
+        "width": 379,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "differential health",
+      "confidence": 0.301801,
+      "region": {
+        "index": 12,
+        "x": 109,
+        "y": 1241,
+        "width": 660,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "0 0",
+      "confidence": 0.500432,
+      "region": {
+        "index": 13,
+        "x": 1539,
+        "y": 1313,
+        "width": 35,
+        "height": 28,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "0 1.",
+      "confidence": 0.296038,
+      "region": {
+        "index": 14,
+        "x": 365,
+        "y": 1373,
+        "width": 205,
+        "height": 88,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "N.A company issues, 1976 preference shares of face value",
+      "confidence": 0.764722,
+      "region": {
+        "index": 15,
+        "x": 72,
+        "y": 1456,
+        "width": 2303,
+        "height": 178,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "FID each, redeemable after 9 years. The total number of",
+      "confidence": 0.740781,
+      "region": {
+        "index": 16,
+        "x": 214,
+        "y": 1569,
+        "width": 2221,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "shares issued is 5000. The preference shares are to be",
+      "confidence": 0.94384,
+      "region": {
+        "index": 17,
+        "x": 212,
+        "y": 1685,
+        "width": 2196,
+        "height": 160,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "redefined at a 207-Premium. The cost of issue of shares",
+      "confidence": 0.778533,
+      "region": {
+        "index": 18,
+        "x": 182,
+        "y": 1786,
+        "width": 2343,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "is 30 prize per share (complete the cost of preference",
+      "confidence": 0.721429,
+      "region": {
+        "index": 19,
+        "x": 201,
+        "y": 1887,
+        "width": 2169,
+        "height": 196,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "shameriapital.",
+      "confidence": 0.763669,
+      "region": {
+        "index": 20,
+        "x": 211,
+        "y": 2006,
+        "width": 627,
+        "height": 184,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "# not likely in U.S. The President's long grandparents. A",
+      "confidence": 0.306956,
+      "region": {
+        "index": 21,
+        "x": 56,
+        "y": 2228,
+        "width": 2068,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "strongsies (100after-Hannings still. Latin-just-things are",
+      "confidence": 0.382387,
+      "region": {
+        "index": 22,
+        "x": 187,
+        "y": 2352,
+        "width": 1941,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "got.",
+      "confidence": 0.717327,
+      "region": {
+        "index": 23,
+        "x": 1368,
+        "y": 2475,
+        "width": 200,
+        "height": 130,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "RVA in Arizona Valley Arkansas advertised in AP",
+      "confidence": 0.351583,
+      "region": {
+        "index": 24,
+        "x": 190,
+        "y": 2457,
+        "width": 1932,
+        "height": 176,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "appropriate team softball",
+      "confidence": 0.348905,
+      "region": {
+        "index": 25,
+        "x": 1118,
+        "y": 2577,
+        "width": 1005,
+        "height": 150,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "erla",
+      "confidence": 0.203493,
+      "region": {
+        "index": 26,
+        "x": 344,
+        "y": 2594,
+        "width": 205,
+        "height": 148,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "MP. 10-O.50. 79.50, via.",
+      "confidence": 0.493791,
+      "region": {
+        "index": 27,
+        "x": 186,
+        "y": 2812,
+        "width": 1536,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "900",
+      "confidence": 0.364534,
+      "region": {
+        "index": 28,
+        "x": 1487,
+        "y": 2924,
+        "width": 140,
+        "height": 115,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "APPLICATION GENERAL ASSEMBLY",
+      "confidence": 0.395769,
+      "region": {
+        "index": 29,
+        "x": 330,
+        "y": 3020,
+        "width": 1353,
+        "height": 225,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "\" Yarrisay,",
+      "confidence": 0.219383,
+      "region": {
+        "index": 30,
+        "x": 630,
+        "y": 3153,
+        "width": 541,
+        "height": 154,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "so-01aal",
+      "confidence": 0.551129,
+      "region": {
+        "index": 31,
+        "x": 491,
+        "y": 3287,
+        "width": 375,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "2 1a.aiolo",
+      "confidence": 0.55482,
+      "region": {
+        "index": 32,
+        "x": 476,
+        "y": 3385,
+        "width": 363,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0033/line_033.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 33
+}

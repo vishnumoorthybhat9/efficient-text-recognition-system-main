@@ -1,0 +1,461 @@
+{
+  "source_image": "page_0027.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 32,
+  "elapsed_seconds": 115.28,
+  "text": "settled into a difficult situation and used\nQ. A firm has sole perpetual debt of 2,000000.\nthe tax rate is 35\"2, determine the cost of debt capital\nbecome # after taxi. Assuming that debt is issued at\ncay party.\nin consideration between which he may still consider\nthe construction was a small part of the\n# it spoke to show the remarkable vital aquedah council. A\nin debt issued at.pan.0003000500050005000\nArment to obtain a more ever even accumulated all\nbefore-tack cost, K.2. R.1000,0.1.1076\n\"000000\nAfter-two cost, Rd. Rail-th.\n\" INDICTATION-O.B.D.Y. NOT\n2 1 MAX 091,65, Replace football\nis\n0\ncir) Issued at discount.\nvarital studies.\nbefore-tax cash, K. - As. ANN. 0-11 W.HAM \"6 0pb.\nspooked\nAfter-tax cost, Rd. Rail-A.)\n\" 2 1/ Agricultural # 4-4) - B.B. D.\n2 7.0006.\nstill issued at premidium, H. H.C.P.P-T.\n\" Next\nbefore-take cost, K.2A. 1000 (, 0.0909. 0.1972\nMr. I. \" \" \" Tooooo.\nwill be\nAfter-tass unst. Rd. Roll-t.)\n\" geological i-o.35)\nc 15.gio",
+  "lines": [
+    {
+      "line": 1,
+      "text": "settled into a difficult situation and used",
+      "confidence": 0.242945,
+      "region": {
+        "index": 0,
+        "x": 1015,
+        "y": 58,
+        "width": 787,
+        "height": 90,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "Q. A firm has sole perpetual debt of 2,000000.",
+      "confidence": 0.797654,
+      "region": {
+        "index": 1,
+        "x": 165,
+        "y": 134,
+        "width": 1768,
+        "height": 187,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "the tax rate is 35\"2, determine the cost of debt capital",
+      "confidence": 0.745689,
+      "region": {
+        "index": 2,
+        "x": 278,
+        "y": 247,
+        "width": 2013,
+        "height": 176,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "become # after taxi. Assuming that debt is issued at",
+      "confidence": 0.709276,
+      "region": {
+        "index": 3,
+        "x": 296,
+        "y": 359,
+        "width": 1879,
+        "height": 178,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "cay party.",
+      "confidence": 0.477684,
+      "region": {
+        "index": 4,
+        "x": 150,
+        "y": 485,
+        "width": 367,
+        "height": 174,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "in consideration between which he may still consider",
+      "confidence": 0.423187,
+      "region": {
+        "index": 5,
+        "x": 147,
+        "y": 587,
+        "width": 1962,
+        "height": 189,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "the construction was a small part of the",
+      "confidence": 0.268145,
+      "region": {
+        "index": 6,
+        "x": 106,
+        "y": 705,
+        "width": 1720,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "# it spoke to show the remarkable vital aquedah council. A",
+      "confidence": 0.331868,
+      "region": {
+        "index": 7,
+        "x": 132,
+        "y": 918,
+        "width": 1962,
+        "height": 166,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "in debt issued at.pan.0003000500050005000",
+      "confidence": 0.384123,
+      "region": {
+        "index": 8,
+        "x": 150,
+        "y": 1038,
+        "width": 1964,
+        "height": 187,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "Arment to obtain a more ever even accumulated all",
+      "confidence": 0.274831,
+      "region": {
+        "index": 9,
+        "x": 536,
+        "y": 1149,
+        "width": 1572,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "before-tack cost, K.2. R.1000,0.1.1076",
+      "confidence": 0.573512,
+      "region": {
+        "index": 10,
+        "x": 571,
+        "y": 1253,
+        "width": 1532,
+        "height": 201,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "\"000000",
+      "confidence": 0.45081,
+      "region": {
+        "index": 11,
+        "x": 1403,
+        "y": 1376,
+        "width": 290,
+        "height": 147,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "After-two cost, Rd. Rail-th.",
+      "confidence": 0.54025,
+      "region": {
+        "index": 12,
+        "x": 560,
+        "y": 1494,
+        "width": 1546,
+        "height": 186,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "\" INDICTATION-O.B.D.Y. NOT",
+      "confidence": 0.452847,
+      "region": {
+        "index": 13,
+        "x": 1285,
+        "y": 1609,
+        "width": 797,
+        "height": 137,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "2 1 MAX 091,65, Replace football",
+      "confidence": 0.284233,
+      "region": {
+        "index": 14,
+        "x": 980,
+        "y": 1728,
+        "width": 1057,
+        "height": 120,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "is",
+      "confidence": 0.769196,
+      "region": {
+        "index": 15,
+        "x": 1312,
+        "y": 1767,
+        "width": 54,
+        "height": 54,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "0",
+      "confidence": 0.359773,
+      "region": {
+        "index": 16,
+        "x": 1913,
+        "y": 1871,
+        "width": 53,
+        "height": 38,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "cir) Issued at discount.",
+      "confidence": 0.615708,
+      "region": {
+        "index": 17,
+        "x": 136,
+        "y": 1958,
+        "width": 851,
+        "height": 158,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "varital studies.",
+      "confidence": 0.232514,
+      "region": {
+        "index": 18,
+        "x": 1652,
+        "y": 2051,
+        "width": 454,
+        "height": 122,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "before-tax cash, K. - As. ANN. 0-11 W.HAM \"6 0pb.",
+      "confidence": 0.474285,
+      "region": {
+        "index": 19,
+        "x": 602,
+        "y": 2153,
+        "width": 1734,
+        "height": 186,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "spooked",
+      "confidence": 0.322332,
+      "region": {
+        "index": 20,
+        "x": 1454,
+        "y": 2270,
+        "width": 248,
+        "height": 132,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "After-tax cost, Rd. Rail-A.)",
+      "confidence": 0.715078,
+      "region": {
+        "index": 21,
+        "x": 579,
+        "y": 2375,
+        "width": 1158,
+        "height": 164,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "\" 2 1/ Agricultural # 4-4) - B.B. D.",
+      "confidence": 0.309758,
+      "region": {
+        "index": 22,
+        "x": 1277,
+        "y": 2485,
+        "width": 670,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "2 7.0006.",
+      "confidence": 0.620014,
+      "region": {
+        "index": 23,
+        "x": 1298,
+        "y": 2597,
+        "width": 334,
+        "height": 141,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "still issued at premidium, H. H.C.P.P-T.",
+      "confidence": 0.494082,
+      "region": {
+        "index": 24,
+        "x": 123,
+        "y": 2811,
+        "width": 1554,
+        "height": 206,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "\" Next",
+      "confidence": 0.204653,
+      "region": {
+        "index": 25,
+        "x": 1162,
+        "y": 2958,
+        "width": 331,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "before-take cost, K.2A. 1000 (, 0.0909. 0.1972",
+      "confidence": 0.517774,
+      "region": {
+        "index": 26,
+        "x": 626,
+        "y": 3043,
+        "width": 1800,
+        "height": 198,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "Mr. I. \" \" \" Tooooo.",
+      "confidence": 0.339031,
+      "region": {
+        "index": 27,
+        "x": 1329,
+        "y": 3181,
+        "width": 465,
+        "height": 137,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "will be",
+      "confidence": 0.242213,
+      "region": {
+        "index": 28,
+        "x": 1494,
+        "y": 3313,
+        "width": 134,
+        "height": 103,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "After-tass unst. Rd. Roll-t.)",
+      "confidence": 0.649684,
+      "region": {
+        "index": 29,
+        "x": 607,
+        "y": 3393,
+        "width": 1159,
+        "height": 214,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "\" geological i-o.35)",
+      "confidence": 0.666085,
+      "region": {
+        "index": 30,
+        "x": 1319,
+        "y": 3532,
+        "width": 654,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "c 15.gio",
+      "confidence": 0.50186,
+      "region": {
+        "index": 31,
+        "x": 1348,
+        "y": 3637,
+        "width": 328,
+        "height": 178,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0027/line_032.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 32
+}

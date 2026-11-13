@@ -1,0 +1,12 @@
+# Dataset images and CSVs (~1.4 GB) and the zip they came in
+data/
+data.zip
+*.zip
+
+# Python / model output
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.h5
+*.keras

@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Tailwind v4 defaults dark mode to the OS preference. This project needs an
+   explicit toggle (a projector in a bright room is a real use case for a
+   viva), so the variant is redefined to follow a `.dark` class on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
+
+  /* The two experiment arms keep one colour each, everywhere in the UI, so a
+     reader can follow them across pages without re-reading a legend. */
+  --color-arm-control: #d55e00;
+  --color-arm-treatment: #0072b2;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    @apply dark:bg-slate-950 dark:text-slate-100;
+    font-family: var(--font-sans);
+  }
+
+  /* Keyboard focus must stay visible; several controls override the default
+     outline for styling and would otherwise become unreachable. */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-indigo-500;
+  }
+
+  ::selection {
+    @apply bg-indigo-500/30;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white shadow-sm;
+    @apply dark:border-slate-800 dark:bg-slate-900;
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm;
+    @apply placeholder:text-slate-400 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20;
+    @apply dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100;
+    @apply disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-medium text-slate-600 dark:text-slate-400;
+  }
+
+  /* Tabular numerals keep metric columns aligned as values change. */
+  .nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Plotly injects its own styles; make its backgrounds transparent so the
+   figures sit on the card rather than on a white rectangle in dark mode. */
+.js-plotly-plot .plotly .main-svg {
+  background: transparent !important;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.shimmer::after {
+  content: "";
+  @apply absolute inset-0 -translate-x-full;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.12),
+    transparent
+  );
+  animation: shimmer 1.6s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

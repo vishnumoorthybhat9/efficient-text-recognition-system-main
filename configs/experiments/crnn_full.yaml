@@ -1,0 +1,58 @@
+# ===========================================================================
+# PRODUCTION model -- the one the application uses by default.
+#
+# This is NOT part of the controlled experiment. The two experiment arms are
+# deliberately crippled to 2,000 labeled samples so that the effect of
+# self-supervised pretraining is measurable; this config instead trains on
+# everything available, across both printed and handwritten data, so the app
+# actually recognises real documents well.
+#
+#   python scripts/train_crnn.py --config configs/experiments/crnn_full.yaml
+#
+# It starts from the SimCLR encoder because there is no reason not to -- the
+# experiment already established that it helps.
+# ===========================================================================
+extends: default.yaml
+
+name: crnn_full
+
+data:
+  # Synthetic (printed + script typefaces) and real photographed handwriting,
+  # combined: ~28k labeled training lines.
+  train_manifest: data/processed/combined/train.tsv
+  val_manifest: data/processed/combined/val.tsv
+  test_manifest: data/processed/combined/test.tsv
+  unlabeled_manifest: data/processed/combined/unlabeled.txt
+  max_train_samples: null   # use everything
+
+augment:
+  # Slightly stronger than the experiment arms: with 14x the data there is far
+  # less risk of the model memorising, and more augmentation buys robustness
+  # to the photographed input the app actually receives.
+  enabled: true
+  probability: 0.85
+  rotate_deg: 2.5
+  shear_deg: 5.0
+  scale_jitter: 0.08
+  translate_px: 2
+  brightness: 0.3
+  contrast: 0.3
+  gaussian_noise_std: 0.04
+  blur_max_sigma: 1.0
+  jpeg_quality_min: 40
+  erode_dilate: true
+
+model:
+  init_encoder_from: artifacts/checkpoints/simclr_pretrain/encoder_best.pt
+  freeze_encoder_epochs: 1
+
+train:
+  epochs: 18
+  batch_size: 48
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: cosine
+  warmup_epochs: 1
+  seed: 42
+  early_stopping_patience: 5
+  checkpoint_dir: artifacts/checkpoints/crnn_full

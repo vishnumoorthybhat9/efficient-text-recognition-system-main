@@ -1,0 +1,559 @@
+{
+  "source_image": "page_0013.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 39,
+  "elapsed_seconds": 209.15,
+  "text": "page.\n\" Federalist and antiothermia studying sentiment. A\nEquivalent Annual worth # will be not\nfinal-minitiators.\n3. psychooperative.\nFAW 2 1P.C ALP. i.m. Annual operating cost-S.AF.M.)\nyou'll ever find the summit. First Generation can't a\n# soon, sucked down with the top school\ng. Calculate using equivalent Annual North Approach\nvi\nPonticularist (100-fontaine. A (machine of 1000,\nfirst cost\nmodo-of 100000s\nAnnual operating cost (2500-If 3200i\nlife.\ngo\n1960s\ncast of capital of 1896\n891.\nsavage value....0000. A.000000\nsee FAM. - HOODYAP.SIG, b)-3500H.10001AIF.S.A.B.B),\nA--noon panelist) 43500-th.000 ((Nebraska IN.SOUNCIL\n1990\n\" - # 5.)B.15\nbackfast launch, triple\nop- (2) 3/4) 5)\na23500\nwindowless\ngood-about (but, still aged - -\nEAW. - 400000 (AP, 876)6.3,000 4,000 (AIR, 8.75, by\n0-0000ojo. Alexis) - 310040000 (N.136315)\n2000\n--/ 4990.52\na\n5)\n\" Now since Edward Z Bank,\nazziuu\nMaurine B should be selected: 22 0,0005000\nstill and the",
+  "lines": [
+    {
+      "line": 1,
+      "text": "page.",
+      "confidence": 0.982511,
+      "region": {
+        "index": 0,
+        "x": 1899,
+        "y": 0,
+        "width": 108,
+        "height": 74,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "\" Federalist and antiothermia studying sentiment. A",
+      "confidence": 0.30908,
+      "region": {
+        "index": 1,
+        "x": 523,
+        "y": 182,
+        "width": 1610,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "Equivalent Annual worth # will be not",
+      "confidence": 0.298572,
+      "region": {
+        "index": 2,
+        "x": 232,
+        "y": 260,
+        "width": 1798,
+        "height": 179,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "final-minitiators.",
+      "confidence": 0.377926,
+      "region": {
+        "index": 3,
+        "x": 542,
+        "y": 363,
+        "width": 531,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "3. psychooperative.",
+      "confidence": 0.347282,
+      "region": {
+        "index": 4,
+        "x": 1632,
+        "y": 357,
+        "width": 677,
+        "height": 216,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "FAW 2 1P.C ALP. i.m. Annual operating cost-S.AF.M.)",
+      "confidence": 0.600418,
+      "region": {
+        "index": 5,
+        "x": 231,
+        "y": 473,
+        "width": 2028,
+        "height": 201,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "you'll ever find the summit. First Generation can't a",
+      "confidence": 0.550256,
+      "region": {
+        "index": 6,
+        "x": 1013,
+        "y": 641,
+        "width": 1105,
+        "height": 106,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "# soon, sucked down with the top school",
+      "confidence": 0.235651,
+      "region": {
+        "index": 7,
+        "x": 992,
+        "y": 751,
+        "width": 1130,
+        "height": 110,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "g. Calculate using equivalent Annual North Approach",
+      "confidence": 0.803801,
+      "region": {
+        "index": 8,
+        "x": 100,
+        "y": 817,
+        "width": 1890,
+        "height": 198,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "vi",
+      "confidence": 0.523603,
+      "region": {
+        "index": 9,
+        "x": 744,
+        "y": 934,
+        "width": 27,
+        "height": 27,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "Ponticularist (100-fontaine. A (machine of 1000,",
+      "confidence": 0.325552,
+      "region": {
+        "index": 10,
+        "x": 229,
+        "y": 1046,
+        "width": 1918,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "first cost",
+      "confidence": 0.888386,
+      "region": {
+        "index": 11,
+        "x": 233,
+        "y": 1164,
+        "width": 349,
+        "height": 125,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "modo-of 100000s",
+      "confidence": 0.400982,
+      "region": {
+        "index": 12,
+        "x": 990,
+        "y": 1190,
+        "width": 686,
+        "height": 117,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "Annual operating cost (2500-If 3200i",
+      "confidence": 0.532597,
+      "region": {
+        "index": 13,
+        "x": 229,
+        "y": 1280,
+        "width": 1422,
+        "height": 144,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "life.",
+      "confidence": 0.973416,
+      "region": {
+        "index": 14,
+        "x": 222,
+        "y": 1390,
+        "width": 172,
+        "height": 131,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "go",
+      "confidence": 0.806135,
+      "region": {
+        "index": 15,
+        "x": 1041,
+        "y": 1430,
+        "width": 50,
+        "height": 51,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "1960s",
+      "confidence": 0.389184,
+      "region": {
+        "index": 16,
+        "x": 1494,
+        "y": 1405,
+        "width": 232,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "cast of capital of 1896",
+      "confidence": 0.561985,
+      "region": {
+        "index": 17,
+        "x": 222,
+        "y": 1500,
+        "width": 923,
+        "height": 148,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "891.",
+      "confidence": 0.450399,
+      "region": {
+        "index": 18,
+        "x": 1483,
+        "y": 1524,
+        "width": 248,
+        "height": 114,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "savage value....0000. A.000000",
+      "confidence": 0.311005,
+      "region": {
+        "index": 19,
+        "x": 237,
+        "y": 1629,
+        "width": 1482,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "see FAM. - HOODYAP.SIG, b)-3500H.10001AIF.S.A.B.B),",
+      "confidence": 0.516086,
+      "region": {
+        "index": 20,
+        "x": 80,
+        "y": 1838,
+        "width": 2223,
+        "height": 162,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "A--noon panelist) 43500-th.000 ((Nebraska IN.SOUNCIL",
+      "confidence": 0.360731,
+      "region": {
+        "index": 21,
+        "x": 363,
+        "y": 1935,
+        "width": 1778,
+        "height": 168,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "1990",
+      "confidence": 0.667739,
+      "region": {
+        "index": 22,
+        "x": 2305,
+        "y": 2064,
+        "width": 151,
+        "height": 113,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "\" - # 5.)B.15",
+      "confidence": 0.42367,
+      "region": {
+        "index": 23,
+        "x": 432,
+        "y": 2075,
+        "width": 469,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "backfast launch, triple",
+      "confidence": 0.423284,
+      "region": {
+        "index": 24,
+        "x": 1188,
+        "y": 2191,
+        "width": 759,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "op- (2) 3/4) 5)",
+      "confidence": 0.556107,
+      "region": {
+        "index": 25,
+        "x": 1701,
+        "y": 2266,
+        "width": 611,
+        "height": 119,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "a23500",
+      "confidence": 0.910225,
+      "region": {
+        "index": 26,
+        "x": 1998,
+        "y": 2391,
+        "width": 210,
+        "height": 86,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "windowless",
+      "confidence": 0.163299,
+      "region": {
+        "index": 27,
+        "x": 1719,
+        "y": 2449,
+        "width": 403,
+        "height": 104,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "good-about (but, still aged - -",
+      "confidence": 0.202704,
+      "region": {
+        "index": 28,
+        "x": 594,
+        "y": 2537,
+        "width": 1464,
+        "height": 121,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "EAW. - 400000 (AP, 876)6.3,000 4,000 (AIR, 8.75, by",
+      "confidence": 0.484642,
+      "region": {
+        "index": 29,
+        "x": 231,
+        "y": 2640,
+        "width": 1676,
+        "height": 156,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "0-0000ojo. Alexis) - 310040000 (N.136315)",
+      "confidence": 0.517203,
+      "region": {
+        "index": 30,
+        "x": 450,
+        "y": 2752,
+        "width": 1393,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "2000",
+      "confidence": 0.986155,
+      "region": {
+        "index": 31,
+        "x": 2349,
+        "y": 2863,
+        "width": 138,
+        "height": 89,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "--/ 4990.52",
+      "confidence": 0.456034,
+      "region": {
+        "index": 32,
+        "x": 485,
+        "y": 2870,
+        "width": 424,
+        "height": 148,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "a",
+      "confidence": 0.94027,
+      "region": {
+        "index": 33,
+        "x": 2372,
+        "y": 2944,
+        "width": 48,
+        "height": 45,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "5)",
+      "confidence": 0.671292,
+      "region": {
+        "index": 34,
+        "x": 2247,
+        "y": 3084,
+        "width": 67,
+        "height": 81,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "\" Now since Edward Z Bank,",
+      "confidence": 0.415428,
+      "region": {
+        "index": 35,
+        "x": 226,
+        "y": 3092,
+        "width": 1398,
+        "height": 182,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_036.png"
+    },
+    {
+      "line": 37,
+      "text": "azziuu",
+      "confidence": 0.619442,
+      "region": {
+        "index": 36,
+        "x": 2025,
+        "y": 3190,
+        "width": 211,
+        "height": 83,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_037.png"
+    },
+    {
+      "line": 38,
+      "text": "Maurine B should be selected: 22 0,0005000",
+      "confidence": 0.485943,
+      "region": {
+        "index": 37,
+        "x": 249,
+        "y": 3205,
+        "width": 1613,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_038.png"
+    },
+    {
+      "line": 39,
+      "text": "still and the",
+      "confidence": 0.186085,
+      "region": {
+        "index": 38,
+        "x": 1439,
+        "y": 3358,
+        "width": 260,
+        "height": 98,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0013/line_039.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 39
+}

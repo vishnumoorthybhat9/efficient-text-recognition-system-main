@@ -1,0 +1,503 @@
+{
+  "source_image": "page_0017.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 35,
+  "elapsed_seconds": 167.84,
+  "text": "a compare the two proposals using equivalent annual worth\nat Iago.\n0\ncash Florida's 200-000 \" Machine A (machine of\nFirst cost ever in each case of a 5,500000 self-th.000\nAnnual maintenance... 000of-000s, of 1,000\n# Over-haul at the end of 3 years (1-1 - 200 lb.\nlate. Some many strangers are considered\nsaddle values such as still-1000s self 8000s\nA glycoprotein II gene\nset Machine. A\nprooom\n0th.\nc-p.o.\na zadoo\n2500\nEAV. - 2500000 1A.P.A.2S. 512200#1000ANA., 1a.S.S)\n\" 2550,000 (0.227417200004100000101574 1\n0 0\n--255611.5\nA glawycham.\nMachine B.\nizzuality in its own 8000000\nut,\nc.r. f.) e.) 3d--eff-of-3000\nA.4000 \"... owner.\n150000 2000.\nyears-450000 (AIR. NAV. 5) - 4000 4,0000 (AIR, 1996,59 -\n30001Philadelphia Jaguars0000\n(3000 (0-71178 (0.AF\n741)\n- - E.3B.1.B.\n2\n\" EAV., machine.\nBAN. BAN.; machine it is preferred.",
+  "lines": [
+    {
+      "line": 1,
+      "text": "a compare the two proposals using equivalent annual worth",
+      "confidence": 0.714696,
+      "region": {
+        "index": 0,
+        "x": 227,
+        "y": 213,
+        "width": 2121,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "at Iago.",
+      "confidence": 0.59033,
+      "region": {
+        "index": 1,
+        "x": 346,
+        "y": 317,
+        "width": 306,
+        "height": 141,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "0",
+      "confidence": 0.434243,
+      "region": {
+        "index": 2,
+        "x": 1469,
+        "y": 389,
+        "width": 46,
+        "height": 35,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "cash Florida's 200-000 \" Machine A (machine of",
+      "confidence": 0.357654,
+      "region": {
+        "index": 3,
+        "x": 331,
+        "y": 534,
+        "width": 1822,
+        "height": 153,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "First cost ever in each case of a 5,500000 self-th.000",
+      "confidence": 0.440078,
+      "region": {
+        "index": 4,
+        "x": 326,
+        "y": 664,
+        "width": 1755,
+        "height": 127,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "Annual maintenance... 000of-000s, of 1,000",
+      "confidence": 0.465431,
+      "region": {
+        "index": 5,
+        "x": 330,
+        "y": 774,
+        "width": 1720,
+        "height": 128,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "# Over-haul at the end of 3 years (1-1 - 200 lb.",
+      "confidence": 0.457658,
+      "region": {
+        "index": 6,
+        "x": 107,
+        "y": 875,
+        "width": 1942,
+        "height": 159,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "late. Some many strangers are considered",
+      "confidence": 0.153066,
+      "region": {
+        "index": 7,
+        "x": 326,
+        "y": 988,
+        "width": 1659,
+        "height": 128,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "saddle values such as still-1000s self 8000s",
+      "confidence": 0.374088,
+      "region": {
+        "index": 8,
+        "x": 318,
+        "y": 1094,
+        "width": 1730,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "A glycoprotein II gene",
+      "confidence": 0.396023,
+      "region": {
+        "index": 9,
+        "x": 1657,
+        "y": 1311,
+        "width": 598,
+        "height": 135,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "set Machine. A",
+      "confidence": 0.68562,
+      "region": {
+        "index": 10,
+        "x": 182,
+        "y": 1310,
+        "width": 580,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "prooom",
+      "confidence": 0.356074,
+      "region": {
+        "index": 11,
+        "x": 1407,
+        "y": 1492,
+        "width": 231,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "0th.",
+      "confidence": 0.400137,
+      "region": {
+        "index": 12,
+        "x": 632,
+        "y": 1668,
+        "width": 89,
+        "height": 70,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "c-p.o.",
+      "confidence": 0.80066,
+      "region": {
+        "index": 13,
+        "x": 638,
+        "y": 1758,
+        "width": 146,
+        "height": 70,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "a zadoo",
+      "confidence": 0.658649,
+      "region": {
+        "index": 14,
+        "x": 1033,
+        "y": 1844,
+        "width": 204,
+        "height": 101,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "2500",
+      "confidence": 0.457293,
+      "region": {
+        "index": 15,
+        "x": 701,
+        "y": 1954,
+        "width": 188,
+        "height": 101,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "EAV. - 2500000 1A.P.A.2S. 512200#1000ANA., 1a.S.S)",
+      "confidence": 0.470167,
+      "region": {
+        "index": 16,
+        "x": 324,
+        "y": 2075,
+        "width": 1747,
+        "height": 173,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "\" 2550,000 (0.227417200004100000101574 1",
+      "confidence": 0.496395,
+      "region": {
+        "index": 17,
+        "x": 502,
+        "y": 2199,
+        "width": 1373,
+        "height": 108,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "0 0",
+      "confidence": 0.315789,
+      "region": {
+        "index": 18,
+        "x": 1490,
+        "y": 2320,
+        "width": 114,
+        "height": 45,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "--255611.5",
+      "confidence": 0.701042,
+      "region": {
+        "index": 19,
+        "x": 496,
+        "y": 2300,
+        "width": 414,
+        "height": 116,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "A glawycham.",
+      "confidence": 0.568733,
+      "region": {
+        "index": 20,
+        "x": 1602,
+        "y": 2508,
+        "width": 456,
+        "height": 120,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "Machine B.",
+      "confidence": 0.8804,
+      "region": {
+        "index": 21,
+        "x": 317,
+        "y": 2499,
+        "width": 409,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "izzuality in its own 8000000",
+      "confidence": 0.338476,
+      "region": {
+        "index": 22,
+        "x": 803,
+        "y": 2607,
+        "width": 763,
+        "height": 171,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "ut,",
+      "confidence": 0.657043,
+      "region": {
+        "index": 23,
+        "x": 640,
+        "y": 2741,
+        "width": 100,
+        "height": 67,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "c.r. f.) e.) 3d--eff-of-3000",
+      "confidence": 0.537281,
+      "region": {
+        "index": 24,
+        "x": 645,
+        "y": 2789,
+        "width": 934,
+        "height": 139,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "A.4000 \"... owner.",
+      "confidence": 0.399481,
+      "region": {
+        "index": 25,
+        "x": 1023,
+        "y": 2915,
+        "width": 590,
+        "height": 101,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "150000 2000.",
+      "confidence": 0.575144,
+      "region": {
+        "index": 26,
+        "x": 696,
+        "y": 3015,
+        "width": 408,
+        "height": 95,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "years-450000 (AIR. NAV. 5) - 4000 4,0000 (AIR, 1996,59 -",
+      "confidence": 0.545901,
+      "region": {
+        "index": 27,
+        "x": 303,
+        "y": 3115,
+        "width": 1835,
+        "height": 182,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "30001Philadelphia Jaguars0000",
+      "confidence": 0.319275,
+      "region": {
+        "index": 28,
+        "x": 549,
+        "y": 3220,
+        "width": 1297,
+        "height": 182,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "(3000 (0-71178 (0.AF",
+      "confidence": 0.64738,
+      "region": {
+        "index": 29,
+        "x": 1723,
+        "y": 3370,
+        "width": 645,
+        "height": 149,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "741)",
+      "confidence": 0.782147,
+      "region": {
+        "index": 30,
+        "x": 563,
+        "y": 3451,
+        "width": 185,
+        "height": 136,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "- - E.3B.1.B.",
+      "confidence": 0.501601,
+      "region": {
+        "index": 31,
+        "x": 464,
+        "y": 3539,
+        "width": 441,
+        "height": 155,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "2",
+      "confidence": 0.141968,
+      "region": {
+        "index": 32,
+        "x": 1701,
+        "y": 3627,
+        "width": 56,
+        "height": 45,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "\" EAV., machine.",
+      "confidence": 0.616984,
+      "region": {
+        "index": 33,
+        "x": 560,
+        "y": 3667,
+        "width": 622,
+        "height": 133,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "BAN. BAN.; machine it is preferred.",
+      "confidence": 0.551183,
+      "region": {
+        "index": 34,
+        "x": 382,
+        "y": 3656,
+        "width": 1315,
+        "height": 193,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0017/line_035.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 35
+}

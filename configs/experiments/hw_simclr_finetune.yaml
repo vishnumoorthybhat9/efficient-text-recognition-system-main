@@ -1,0 +1,44 @@
+# ===========================================================================
+# REAL-DATA experiment, stage 2b -- TREATMENT arm.
+#
+# Identical to hw_baseline_scratch.yaml in every respect -- same 2,000 labeled
+# samples (same seed, same permutation), same augmentation, same optimiser,
+# same schedule, same epochs -- except that the CNN encoder is initialised
+# from the self-supervised checkpoint.
+#
+#   python scripts/train_crnn.py --config configs/experiments/hw_simclr_finetune.yaml
+#
+# Requires hw_simclr_pretrain.yaml to have run first.
+# ===========================================================================
+extends: default.yaml
+
+name: hw_simclr_finetune
+
+data:
+  train_manifest: data/processed/handwriting/train.tsv
+  val_manifest: data/processed/handwriting/val.tsv
+  test_manifest: data/processed/handwriting/test.tsv
+  unlabeled_manifest: data/processed/handwriting/unlabeled.txt
+  max_train_samples: 2000   # must match the control arm
+
+augment:
+  rotate_deg: 1.5
+  shear_deg: 3.0
+  scale_jitter: 0.06
+  gaussian_noise_std: 0.03
+  blur_max_sigma: 0.8
+
+model:
+  # Role in the controlled comparison; see docs/RESULTS.md.
+  experiment_arm: treatment
+  init_encoder_from: artifacts/checkpoints/hw_simclr_pretrain/encoder_best.pt
+  # Hold the transferred encoder fixed at first so the randomly initialised
+  # BiLSTM and CTC head cannot wash out the pretrained features.
+  freeze_encoder_epochs: 2
+
+train:
+  epochs: 30
+  batch_size: 32
+  learning_rate: 0.0008
+  seed: 42
+  checkpoint_dir: artifacts/checkpoints/hw_simclr_finetune

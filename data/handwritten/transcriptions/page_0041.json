@@ -1,0 +1,559 @@
+{
+  "source_image": "page_0041.jpg",
+  "model_id": "trocr_base",
+  "status": "ocr_draft_unverified",
+  "line_detector": "doctr",
+  "line_count": 39,
+  "elapsed_seconds": 158.43,
+  "text": "Total value: Annual 400004000000480000-3140000\na member of the American Government of Australia\nit book some Approach.\n1961-Total. Think Value # 1 55000,000,000040000000420000\nexposed\nm.\npropaganda and personal\nBank- June 18) Wright (costinel (Maccles)\nannons. \" I mean I like. \"\nb0000 to.000 (9.332of. 9.3.2.2cf.10.a.a\nwooded for # and # businesses for these\n800000, (0.10 (13.) is.\n# 100,58 Fig.\n800,000 I.100\nto book value, by weight-x cost:\ntotal value -\n000 0s.P.F.\n& For the following particulars relating to the capital\nstructure of a company, calculate the interval cost of\ncapital using in bon-value weights and his marked value\n0 0\nweights (200,0005000\n(damage 1 -000,000\nsource of funds (Book value (# cost of capital (While\n8\"6\" (30000\nrebientures (Debt) (8000\npreference shares of a 3000misering a 10,board floor\nequit-shaves. (1,4500050004,14000,2000\nretained earnings 1.1500,000cal.\nIT.R.DIC-V.A. aboard data.\n0 2 0\nbook value Approach.\nIn the issue # weight of cost of weighted cost (?\nson't try to #\niadoal I got numerous tomorrow\nusnow (out of info (6.30\n# second event and his wife's wife from his\n11.69590\nvocorado clubs",
+  "lines": [
+    {
+      "line": 1,
+      "text": "Total value: Annual 400004000000480000-3140000",
+      "confidence": 0.662052,
+      "region": {
+        "index": 0,
+        "x": 197,
+        "y": 75,
+        "width": 2151,
+        "height": 172,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_001.png"
+    },
+    {
+      "line": 2,
+      "text": "a member of the American Government of Australia",
+      "confidence": 0.233606,
+      "region": {
+        "index": 1,
+        "x": 469,
+        "y": 239,
+        "width": 345,
+        "height": 59,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_002.png"
+    },
+    {
+      "line": 3,
+      "text": "it book some Approach.",
+      "confidence": 0.574774,
+      "region": {
+        "index": 2,
+        "x": 88,
+        "y": 281,
+        "width": 929,
+        "height": 201,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_003.png"
+    },
+    {
+      "line": 4,
+      "text": "1961-Total. Think Value # 1 55000,000,000040000000420000",
+      "confidence": 0.304423,
+      "region": {
+        "index": 3,
+        "x": 269,
+        "y": 391,
+        "width": 2083,
+        "height": 164,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_004.png"
+    },
+    {
+      "line": 5,
+      "text": "exposed",
+      "confidence": 0.722112,
+      "region": {
+        "index": 4,
+        "x": 1152,
+        "y": 524,
+        "width": 396,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_005.png"
+    },
+    {
+      "line": 6,
+      "text": "m.",
+      "confidence": 0.717684,
+      "region": {
+        "index": 5,
+        "x": 967,
+        "y": 644,
+        "width": 77,
+        "height": 67,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_006.png"
+    },
+    {
+      "line": 7,
+      "text": "propaganda and personal",
+      "confidence": 0.20339,
+      "region": {
+        "index": 6,
+        "x": 811,
+        "y": 668,
+        "width": 586,
+        "height": 105,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_007.png"
+    },
+    {
+      "line": 8,
+      "text": "Bank- June 18) Wright (costinel (Maccles)",
+      "confidence": 0.430336,
+      "region": {
+        "index": 7,
+        "x": 207,
+        "y": 706,
+        "width": 1801,
+        "height": 180,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_008.png"
+    },
+    {
+      "line": 9,
+      "text": "annons. \" I mean I like. \"",
+      "confidence": 0.417234,
+      "region": {
+        "index": 8,
+        "x": 286,
+        "y": 806,
+        "width": 1619,
+        "height": 170,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_009.png"
+    },
+    {
+      "line": 10,
+      "text": "b0000 to.000 (9.332of. 9.3.2.2cf.10.a.a",
+      "confidence": 0.349676,
+      "region": {
+        "index": 9,
+        "x": 281,
+        "y": 937,
+        "width": 1593,
+        "height": 134,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_010.png"
+    },
+    {
+      "line": 11,
+      "text": "wooded for # and # businesses for these",
+      "confidence": 0.198162,
+      "region": {
+        "index": 10,
+        "x": 264,
+        "y": 1028,
+        "width": 1626,
+        "height": 160,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_011.png"
+    },
+    {
+      "line": 12,
+      "text": "800000, (0.10 (13.) is.",
+      "confidence": 0.542576,
+      "region": {
+        "index": 11,
+        "x": 305,
+        "y": 1147,
+        "width": 1581,
+        "height": 140,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_012.png"
+    },
+    {
+      "line": 13,
+      "text": "# 100,58 Fig.",
+      "confidence": 0.263936,
+      "region": {
+        "index": 12,
+        "x": 1538,
+        "y": 1241,
+        "width": 513,
+        "height": 157,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_013.png"
+    },
+    {
+      "line": 14,
+      "text": "800,000 I.100",
+      "confidence": 0.612105,
+      "region": {
+        "index": 13,
+        "x": 286,
+        "y": 1250,
+        "width": 730,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_014.png"
+    },
+    {
+      "line": 15,
+      "text": "to book value, by weight-x cost:",
+      "confidence": 0.494999,
+      "region": {
+        "index": 14,
+        "x": 869,
+        "y": 1350,
+        "width": 1022,
+        "height": 161,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_015.png"
+    },
+    {
+      "line": 16,
+      "text": "total value -",
+      "confidence": 0.30852,
+      "region": {
+        "index": 15,
+        "x": 967,
+        "y": 1459,
+        "width": 934,
+        "height": 126,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_016.png"
+    },
+    {
+      "line": 17,
+      "text": "000 0s.P.F.",
+      "confidence": 0.56073,
+      "region": {
+        "index": 16,
+        "x": 646,
+        "y": 1579,
+        "width": 375,
+        "height": 116,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_017.png"
+    },
+    {
+      "line": 18,
+      "text": "& For the following particulars relating to the capital",
+      "confidence": 0.966981,
+      "region": {
+        "index": 17,
+        "x": 95,
+        "y": 1669,
+        "width": 2277,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_018.png"
+    },
+    {
+      "line": 19,
+      "text": "structure of a company, calculate the interval cost of",
+      "confidence": 0.917347,
+      "region": {
+        "index": 18,
+        "x": 228,
+        "y": 1774,
+        "width": 2032,
+        "height": 163,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_019.png"
+    },
+    {
+      "line": 20,
+      "text": "capital using in bon-value weights and his marked value",
+      "confidence": 0.767485,
+      "region": {
+        "index": 19,
+        "x": 224,
+        "y": 1855,
+        "width": 2234,
+        "height": 180,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_020.png"
+    },
+    {
+      "line": 21,
+      "text": "0 0",
+      "confidence": 0.460223,
+      "region": {
+        "index": 20,
+        "x": 1652,
+        "y": 2036,
+        "width": 30,
+        "height": 34,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_021.png"
+    },
+    {
+      "line": 22,
+      "text": "weights (200,0005000",
+      "confidence": 0.490884,
+      "region": {
+        "index": 21,
+        "x": 216,
+        "y": 1995,
+        "width": 1045,
+        "height": 151,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_022.png"
+    },
+    {
+      "line": 23,
+      "text": "(damage 1 -000,000",
+      "confidence": 0.328903,
+      "region": {
+        "index": 22,
+        "x": 774,
+        "y": 2094,
+        "width": 771,
+        "height": 122,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_023.png"
+    },
+    {
+      "line": 24,
+      "text": "source of funds (Book value (# cost of capital (While",
+      "confidence": 0.594517,
+      "region": {
+        "index": 23,
+        "x": 216,
+        "y": 2130,
+        "width": 2229,
+        "height": 221,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_024.png"
+    },
+    {
+      "line": 25,
+      "text": "8\"6\" (30000",
+      "confidence": 0.52796,
+      "region": {
+        "index": 24,
+        "x": 1750,
+        "y": 2295,
+        "width": 638,
+        "height": 129,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_025.png"
+    },
+    {
+      "line": 26,
+      "text": "rebientures (Debt) (8000",
+      "confidence": 0.718688,
+      "region": {
+        "index": 25,
+        "x": 246,
+        "y": 2301,
+        "width": 1085,
+        "height": 142,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_026.png"
+    },
+    {
+      "line": 27,
+      "text": "preference shares of a 3000misering a 10,board floor",
+      "confidence": 0.411543,
+      "region": {
+        "index": 26,
+        "x": 225,
+        "y": 2398,
+        "width": 2160,
+        "height": 152,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_027.png"
+    },
+    {
+      "line": 28,
+      "text": "equit-shaves. (1,4500050004,14000,2000",
+      "confidence": 0.342211,
+      "region": {
+        "index": 27,
+        "x": 232,
+        "y": 2502,
+        "width": 2182,
+        "height": 185,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_028.png"
+    },
+    {
+      "line": 29,
+      "text": "retained earnings 1.1500,000cal.",
+      "confidence": 0.331459,
+      "region": {
+        "index": 28,
+        "x": 238,
+        "y": 2601,
+        "width": 1689,
+        "height": 169,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_029.png"
+    },
+    {
+      "line": 30,
+      "text": "IT.R.DIC-V.A. aboard data.",
+      "confidence": 0.403422,
+      "region": {
+        "index": 29,
+        "x": 1087,
+        "y": 2712,
+        "width": 992,
+        "height": 130,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_030.png"
+    },
+    {
+      "line": 31,
+      "text": "0 2 0",
+      "confidence": 0.271965,
+      "region": {
+        "index": 30,
+        "x": 1711,
+        "y": 2840,
+        "width": 203,
+        "height": 89,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_031.png"
+    },
+    {
+      "line": 32,
+      "text": "book value Approach.",
+      "confidence": 0.806363,
+      "region": {
+        "index": 31,
+        "x": 219,
+        "y": 2812,
+        "width": 856,
+        "height": 181,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_032.png"
+    },
+    {
+      "line": 33,
+      "text": "In the issue # weight of cost of weighted cost (?",
+      "confidence": 0.412426,
+      "region": {
+        "index": 32,
+        "x": 93,
+        "y": 2897,
+        "width": 2059,
+        "height": 194,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_033.png"
+    },
+    {
+      "line": 34,
+      "text": "son't try to #",
+      "confidence": 0.246723,
+      "region": {
+        "index": 33,
+        "x": 322,
+        "y": 3025,
+        "width": 1490,
+        "height": 146,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_034.png"
+    },
+    {
+      "line": 35,
+      "text": "iadoal I got numerous tomorrow",
+      "confidence": 0.249841,
+      "region": {
+        "index": 34,
+        "x": 319,
+        "y": 3127,
+        "width": 1495,
+        "height": 143,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_035.png"
+    },
+    {
+      "line": 36,
+      "text": "usnow (out of info (6.30",
+      "confidence": 0.355061,
+      "region": {
+        "index": 35,
+        "x": 331,
+        "y": 3222,
+        "width": 1478,
+        "height": 176,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_036.png"
+    },
+    {
+      "line": 37,
+      "text": "# second event and his wife's wife from his",
+      "confidence": 0.25732,
+      "region": {
+        "index": 36,
+        "x": 313,
+        "y": 3326,
+        "width": 1492,
+        "height": 165,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_037.png"
+    },
+    {
+      "line": 38,
+      "text": "11.69590",
+      "confidence": 0.535676,
+      "region": {
+        "index": 37,
+        "x": 1628,
+        "y": 3418,
+        "width": 275,
+        "height": 145,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_038.png"
+    },
+    {
+      "line": 39,
+      "text": "vocorado clubs",
+      "confidence": 0.428231,
+      "region": {
+        "index": 38,
+        "x": 270,
+        "y": 3461,
+        "width": 686,
+        "height": 124,
+        "ink_ratio": 0.0
+      },
+      "crop": "line_crops/page_0041/line_039.png"
+    }
+  ],
+  "review_required": true,
+  "detected_line_count": 39
+}

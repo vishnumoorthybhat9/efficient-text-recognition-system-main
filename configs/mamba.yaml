@@ -1,0 +1,14 @@
+extends: default.yaml
+
+name: mamba_full
+
+model:
+  family: mamba_ocr
+
+mamba:
+  d_model: 256
+  d_state: 16
+  conv_kernel: 4
+  layers: 2
+  expansion: 1
+  dropout: 0.1
