@@ -7,6 +7,7 @@
     python run.py --no-train      never retrain (use the saved model)
     python run.py --image a.png   just print the text found in an image
     python run.py --epochs 10     shorter / longer training
+    python run.py --resume        continue a training run that was interrupted
 """
 from __future__ import annotations
 
@@ -56,6 +57,7 @@ def main() -> None:
     group = ap.add_mutually_exclusive_group()
     group.add_argument("--train", action="store_true", help="retrain from scratch without asking")
     group.add_argument("--no-train", action="store_true", help="use the saved model without asking")
+    group.add_argument("--resume", action="store_true", help="continue an interrupted training run")
     ap.add_argument("--epochs", type=int, help="training epochs (default: see ocr/config.py)")
     ap.add_argument("--image", help="recognise this image in the terminal and exit")
     ap.add_argument("--port", type=int, default=8000)
@@ -73,20 +75,20 @@ def main() -> None:
 
     ensure_extracted()                                 # unzip data/dataset.zip once
 
-    retrain = args.train
+    retrain = args.train or args.resume
     if not config.MODEL_PATH.exists():
         if args.no_train:
             raise SystemExit(f"No trained model at {config.MODEL_PATH}; run without --no-train.")
         print("No trained model found - training one now.")
         retrain = True
-    elif not (args.train or args.no_train or args.image):
+    elif not (args.train or args.resume or args.no_train or args.image):
         _, info = load_model(config.MODEL_PATH)
         print(f"Trained model found ({describe(info)}).")
         retrain = ask_yes_no("Train again from scratch on the dataset images?")
 
     if retrain:
         from ocr.train import train
-        train(epochs=args.epochs or config.EPOCHS)
+        train(epochs=args.epochs or config.EPOCHS, resume=args.resume)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model, info = load_model(config.MODEL_PATH, device)

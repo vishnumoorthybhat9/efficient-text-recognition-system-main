@@ -42,7 +42,9 @@ def evaluate(model: nn.Module, loader, device: str) -> dict:
 
 
 def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
-          batch_size: int = config.BATCH_SIZE, lr: float = config.LEARNING_RATE) -> dict:
+          batch_size: int = config.BATCH_SIZE, lr: float = config.LEARNING_RATE,
+          resume: bool = False) -> dict:
+    """Train from random weights; resume=True continues an interrupted run."""
     ensure_extracted()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     cores = os.cpu_count() or 2
@@ -74,8 +76,17 @@ def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
           f"{sum(len(v) for v in train_ds.fonts.values())} printed words "
           f"({len(train_ds.font_ids)} fonts), {epochs} epochs x {steps} steps", flush=True)
 
-    best, best_score, started = {}, float("inf"), time.time()
-    for epoch in range(1, epochs + 1):
+    best, best_score, first, started = {}, float("inf"), 1, time.time()
+    if resume and config.STATE_PATH.exists():
+        state = torch.load(config.STATE_PATH, map_location=device, weights_only=True)
+        if state["total_steps"] == epochs * steps:
+            model.load_state_dict(state["model"])
+            opt.load_state_dict(state["opt"])
+            sched.load_state_dict(state["sched"])
+            best, best_score, first = state["best"], state["best_score"], state["epoch"] + 1
+            print(f"Resuming interrupted training at epoch {first}.", flush=True)
+
+    for epoch in range(first, epochs + 1):
         model.train()
         total, t0 = 0.0, time.time()
         for step, (images, targets, lengths, _) in enumerate(train_loader, 1):
@@ -105,10 +116,14 @@ def train(epochs: int = config.EPOCHS, steps: int = config.STEPS_PER_EPOCH,
             best_score, flag = score, "  * saved"
             best = {"metrics": m, "epoch": epoch, "params": params}
             save_model(model, config.MODEL_PATH, **best)
+        torch.save({"model": model.state_dict(), "opt": opt.state_dict(),
+                    "sched": sched.state_dict(), "epoch": epoch, "best": best,
+                    "best_score": best_score, "total_steps": epochs * steps}, config.STATE_PATH)
         print(f"\r  epoch {epoch:>2}/{epochs}  loss {total / steps:6.3f}  "
               f"val CER handwritten {m['handwritten']['cer']:.3f} "
               f"printed {m['printed']['cer']:.3f}  "
               f"[{(time.time() - started) / 60:5.1f} min]{flag}      ", flush=True)
 
+    config.STATE_PATH.unlink(missing_ok=True)          # run complete: nothing to resume
     print(f"Best model (epoch {best['epoch']}) saved to {config.MODEL_PATH}", flush=True)
     return best

@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATASET_ZIP = ROOT / "data" / "dataset.zip"
 DATASET_DIR = ROOT / "dataset"            # extracted here, git-ignored
 MODEL_PATH = ROOT / "models" / "ocr_crnn.pt"
+STATE_PATH = ROOT / "models" / "train_state.pt"   # resume file, git-ignored
 SAMPLES_DIR = ROOT / "samples"
 WEB_DIR = ROOT / "ocr" / "web"
 

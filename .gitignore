@@ -1,6 +1,9 @@
 # extracted dataset (comes from data/dataset.zip, re-created by run.py)
 /dataset/
 
+# interrupted-training resume file
+/models/train_state.pt
+
 # python
 __pycache__/
 *.py[cod]
